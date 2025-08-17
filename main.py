@@ -97,7 +97,7 @@ class TradingBotV25:
             'min_confidence': 0.25,
             'risk_per_trade': 0.005,
             'max_daily_trades': 3,
-            'check_interval_minutes': 15,  # Más frecuente para cryptos volátiles
+            'check_interval_minutes': 15,  # Balance óptimo entre oportunidades y calidad de señales
         }
         
         # Símbolos optimizados para capital de $206
