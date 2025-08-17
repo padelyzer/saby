@@ -1,0 +1,73 @@
+{
+  "initial_capital": 10000,
+  "final_capital": 10979.816402701357,
+  "total_return": 9.798164027013566,
+  "total_trades": 18,
+  "win_rate": 77.77777777777779,
+  "profit_factor": 12.17857142857143,
+  "sharpe_ratio": 3.344291221285062,
+  "max_drawdown": 8.5,
+  "avg_win": 4.871428571428572,
+  "avg_loss": -1.4000000000000001,
+  "best_trade": {
+    "ticker": "SOL-USD",
+    "strategy": "Breakout",
+    "profit_pct": 8.7,
+    "days": 5
+  },
+  "worst_trade": {
+    "ticker": "ETH-USD",
+    "strategy": "Breakout",
+    "profit_pct": -2.1,
+    "days": 2
+  },
+  "strategy_performance": {
+    "Momentum": {
+      "total": 5,
+      "wins": 4,
+      "pnl": 19.7
+    },
+    "Mean Reversion": {
+      "total": 5,
+      "wins": 4,
+      "pnl": 11.8
+    },
+    "Breakout": {
+      "total": 4,
+      "wins": 3,
+      "pnl": 18.1
+    },
+    "Liquidity Hunt": {
+      "total": 4,
+      "wins": 3,
+      "pnl": 13.000000000000002
+    }
+  },
+  "ticker_performance": {
+    "BTC-USD": {
+      "total": 5,
+      "wins": 4,
+      "pnl": 15.5
+    },
+    "ETH-USD": {
+      "total": 4,
+      "wins": 3,
+      "pnl": 9.3
+    },
+    "SOL-USD": {
+      "total": 4,
+      "wins": 3,
+      "pnl": 21.1
+    },
+    "BNB-USD": {
+      "total": 3,
+      "wins": 2,
+      "pnl": 6.8
+    },
+    "ADA-USD": {
+      "total": 2,
+      "wins": 2,
+      "pnl": 9.9
+    }
+  }
+}

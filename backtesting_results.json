@@ -1,0 +1,54 @@
+{
+  "date": "2025-08-16T21:18:36.504507",
+  "initial_capital": 10000,
+  "periods_tested": 7,
+  "symbols_tested": [
+    "BTC-USD",
+    "ETH-USD",
+    "SOL-USD",
+    "BNB-USD",
+    "ADA-USD"
+  ],
+  "final_metrics": {
+    "total_trades": 97,
+    "win_rate": 43.29896907216495,
+    "profit_factor": 1.0647745165447946,
+    "sharpe_ratio": 0.0260077833852679,
+    "max_drawdown": 0,
+    "total_return": 5.124749563221481,
+    "total_pnl": 512.474956322148
+  },
+  "evaluation_score": 6.5,
+  "periods_detail": [
+    {
+      "name": "2022_BEAR_MARKET",
+      "trades": 38,
+      "return": -8.529451322611346
+    },
+    {
+      "name": "2023_H1_RECOVERY",
+      "trades": 18,
+      "return": -1.809540738058655
+    },
+    {
+      "name": "2023_H2_RALLY",
+      "trades": 26,
+      "return": -5.415244522923944
+    },
+    {
+      "name": "2024_Q1_POST_ETF",
+      "trades": 3,
+      "return": 4.085979568584394
+    },
+    {
+      "name": "2024_Q2_CORRECTION",
+      "trades": 6,
+      "return": 2.641080099823089
+    },
+    {
+      "name": "2024_Q3_SUMMER",
+      "trades": 6,
+      "return": 14.151926478407942
+    }
+  ]
+}

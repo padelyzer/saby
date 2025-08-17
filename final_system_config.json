@@ -1,0 +1,22 @@
+{
+  "date": "2025-08-16T21:14:44.274754",
+  "system": "FinalRobustSystem",
+  "parameters": {
+    "rsi_oversold": 35,
+    "rsi_overbought": 65,
+    "min_volume_ratio": 1.1,
+    "atr_stop_multiplier": 1.5,
+    "atr_target_multiplier": 2.0,
+    "risk_per_trade": 0.02,
+    "max_position_size": 0.25,
+    "min_trade_interval_days": 1,
+    "trend_filter": true,
+    "confirmation_required": 2
+  },
+  "test_results": {
+    "periods_tested": 2,
+    "total_trades": 50,
+    "average_win_rate": 43.33333333333333,
+    "average_profit_factor": 1.097300755402427
+  }
+}

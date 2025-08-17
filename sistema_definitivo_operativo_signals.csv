@@ -1,0 +1,2 @@
+ticker,type,entry_price,stop_loss,partial_target,main_target,score,risk_reward,risk_pct,timestamp,trend_direction,trend_score,volume_ratio,rsi,atr,reasons
+DOGE-USD,SHORT,0.22952447831630707,0.23338059655257634,0.22374030096190317,0.21795612360749925,6,3.0,1.6800466183633658,2025-08-16 18:00:00+00:00,strong_bearish,-5,3.4437232485007048,36.952890270081134,0.0019280591181346349,"EMA21 Pullback Bajista, Volumen confirmando"

@@ -1,0 +1,412 @@
+[
+  {
+    "ticker": "FIL-USD",
+    "timestamp": "2025-08-16T01:48:50.225572",
+    "entry": 2.495553493499756,
+    "current": 2.483137845993042,
+    "result": "ACTIVE",
+    "pnl_pct": -1.49,
+    "hours_active": 10,
+    "score": 6
+  },
+  {
+    "ticker": "FIL-USD",
+    "timestamp": "2025-08-16T02:00:53.572103",
+    "entry": 2.4970176219940186,
+    "current": 2.483137845993042,
+    "result": "ACTIVE",
+    "pnl_pct": -1.67,
+    "hours_active": 9,
+    "score": 6
+  },
+  {
+    "ticker": "FIL-USD",
+    "timestamp": "2025-08-16T02:16:05.791550",
+    "entry": 2.494462490081787,
+    "current": 2.483137845993042,
+    "result": "ACTIVE",
+    "pnl_pct": -1.36,
+    "hours_active": 9,
+    "score": 6
+  },
+  {
+    "ticker": "FIL-USD",
+    "timestamp": "2025-08-16T02:31:17.629812",
+    "entry": 2.4953455924987793,
+    "current": 2.483137845993042,
+    "result": "ACTIVE",
+    "pnl_pct": -1.47,
+    "hours_active": 9,
+    "score": 6
+  },
+  {
+    "ticker": "FIL-USD",
+    "timestamp": "2025-08-16T02:46:30.587712",
+    "entry": 2.4951109886169434,
+    "current": 2.483137845993042,
+    "result": "ACTIVE",
+    "pnl_pct": -1.44,
+    "hours_active": 9,
+    "score": 6
+  },
+  {
+    "ticker": "FIL-USD",
+    "timestamp": "2025-08-16T03:01:42.608314",
+    "entry": 2.492344617843628,
+    "current": 2.483137845993042,
+    "result": "ACTIVE",
+    "pnl_pct": -1.11,
+    "hours_active": 8,
+    "score": 6
+  },
+  {
+    "ticker": "FIL-USD",
+    "timestamp": "2025-08-16T03:16:53.853145",
+    "entry": 2.4954354763031006,
+    "current": 2.483137845993042,
+    "result": "ACTIVE",
+    "pnl_pct": -1.48,
+    "hours_active": 8,
+    "score": 6
+  },
+  {
+    "ticker": "FIL-USD",
+    "timestamp": "2025-08-16T03:32:05.807076",
+    "entry": 2.500715732574463,
+    "current": 2.483137845993042,
+    "result": "ACTIVE",
+    "pnl_pct": -2.11,
+    "hours_active": 8,
+    "score": 6
+  },
+  {
+    "ticker": "FIL-USD",
+    "timestamp": "2025-08-16T03:47:17.452827",
+    "entry": 2.5031089782714844,
+    "exit": 2.4780778884887695,
+    "result": "STOP_LOSS",
+    "pnl_pct": -3.0,
+    "hours_to_result": 2,
+    "score": 6
+  },
+  {
+    "ticker": "ATOM-USD",
+    "timestamp": "2025-08-16T04:02:28.798405",
+    "entry": 4.4868292808532715,
+    "current": 4.485558986663818,
+    "result": "ACTIVE",
+    "pnl_pct": -0.08,
+    "hours_active": 7,
+    "score": 5
+  },
+  {
+    "ticker": "FIL-USD",
+    "timestamp": "2025-08-16T04:02:28.980628",
+    "entry": 2.4822866916656494,
+    "current": 2.483137845993042,
+    "result": "ACTIVE",
+    "pnl_pct": 0.1,
+    "hours_active": 7,
+    "score": 6
+  },
+  {
+    "ticker": "ATOM-USD",
+    "timestamp": "2025-08-16T04:17:41.260134",
+    "entry": 4.487502574920654,
+    "current": 4.485558986663818,
+    "result": "ACTIVE",
+    "pnl_pct": -0.13,
+    "hours_active": 7,
+    "score": 5
+  },
+  {
+    "ticker": "FIL-USD",
+    "timestamp": "2025-08-16T04:17:41.481437",
+    "entry": 2.483128786087036,
+    "current": 2.483137845993042,
+    "result": "ACTIVE",
+    "pnl_pct": 0.0,
+    "hours_active": 7,
+    "score": 6
+  },
+  {
+    "ticker": "ATOM-USD",
+    "timestamp": "2025-08-16T04:32:53.490337",
+    "entry": 4.48429012298584,
+    "current": 4.485558986663818,
+    "result": "ACTIVE",
+    "pnl_pct": 0.08,
+    "hours_active": 7,
+    "score": 5
+  },
+  {
+    "ticker": "FIL-USD",
+    "timestamp": "2025-08-16T04:32:53.708861",
+    "entry": 2.4811787605285645,
+    "current": 2.483137845993042,
+    "result": "ACTIVE",
+    "pnl_pct": 0.24,
+    "hours_active": 7,
+    "score": 6
+  },
+  {
+    "ticker": "ATOM-USD",
+    "timestamp": "2025-08-16T04:48:07.240757",
+    "entry": 4.470510959625244,
+    "current": 4.485558986663818,
+    "result": "ACTIVE",
+    "pnl_pct": 1.01,
+    "hours_active": 7,
+    "score": 5
+  },
+  {
+    "ticker": "FIL-USD",
+    "timestamp": "2025-08-16T04:48:07.436457",
+    "entry": 2.476372241973877,
+    "current": 2.483137845993042,
+    "result": "ACTIVE",
+    "pnl_pct": 0.82,
+    "hours_active": 7,
+    "score": 6
+  },
+  {
+    "ticker": "ATOM-USD",
+    "timestamp": "2025-08-16T05:03:19.516037",
+    "entry": 4.479977607727051,
+    "current": 4.485558986663818,
+    "result": "ACTIVE",
+    "pnl_pct": 0.37,
+    "hours_active": 6,
+    "score": 5
+  },
+  {
+    "ticker": "FIL-USD",
+    "timestamp": "2025-08-16T05:03:19.714646",
+    "entry": 2.4763147830963135,
+    "current": 2.483137845993042,
+    "result": "ACTIVE",
+    "pnl_pct": 0.83,
+    "hours_active": 6,
+    "score": 6
+  },
+  {
+    "ticker": "FIL-USD",
+    "timestamp": "2025-08-16T05:18:32.091730",
+    "entry": 2.4882915019989014,
+    "current": 2.483137845993042,
+    "result": "ACTIVE",
+    "pnl_pct": -0.62,
+    "hours_active": 6,
+    "score": 6
+  },
+  {
+    "ticker": "ATOM-USD",
+    "timestamp": "2025-08-16T05:33:43.605969",
+    "entry": 4.493251323699951,
+    "current": 4.485558986663818,
+    "result": "ACTIVE",
+    "pnl_pct": -0.51,
+    "hours_active": 6,
+    "score": 5
+  },
+  {
+    "ticker": "FIL-USD",
+    "timestamp": "2025-08-16T05:33:43.805490",
+    "entry": 2.4850857257843018,
+    "current": 2.483137845993042,
+    "result": "ACTIVE",
+    "pnl_pct": -0.24,
+    "hours_active": 6,
+    "score": 6
+  },
+  {
+    "ticker": "ATOM-USD",
+    "timestamp": "2025-08-16T05:48:56.050484",
+    "entry": 4.487915515899658,
+    "current": 4.485558986663818,
+    "result": "ACTIVE",
+    "pnl_pct": -0.16,
+    "hours_active": 6,
+    "score": 5
+  },
+  {
+    "ticker": "FIL-USD",
+    "timestamp": "2025-08-16T05:48:56.278725",
+    "entry": 2.481074333190918,
+    "current": 2.483137845993042,
+    "result": "ACTIVE",
+    "pnl_pct": 0.25,
+    "hours_active": 6,
+    "score": 6
+  },
+  {
+    "ticker": "ATOM-USD",
+    "timestamp": "2025-08-16T06:04:09.033913",
+    "entry": 4.472500324249268,
+    "current": 4.485558986663818,
+    "result": "ACTIVE",
+    "pnl_pct": 0.88,
+    "hours_active": 5,
+    "score": 5
+  },
+  {
+    "ticker": "FIL-USD",
+    "timestamp": "2025-08-16T06:04:09.350816",
+    "entry": 2.4679818153381348,
+    "current": 2.483137845993042,
+    "result": "ACTIVE",
+    "pnl_pct": 1.84,
+    "hours_active": 5,
+    "score": 6
+  },
+  {
+    "ticker": "ATOM-USD",
+    "timestamp": "2025-08-16T06:19:21.531505",
+    "entry": 4.469709873199463,
+    "current": 4.485558986663818,
+    "result": "ACTIVE",
+    "pnl_pct": 1.06,
+    "hours_active": 5,
+    "score": 5
+  },
+  {
+    "ticker": "FIL-USD",
+    "timestamp": "2025-08-16T06:19:21.727798",
+    "entry": 2.468310594558716,
+    "current": 2.483137845993042,
+    "result": "ACTIVE",
+    "pnl_pct": 1.8,
+    "hours_active": 5,
+    "score": 6
+  },
+  {
+    "ticker": "ATOM-USD",
+    "timestamp": "2025-08-16T06:34:33.900088",
+    "entry": 4.482755661010742,
+    "current": 4.485558986663818,
+    "result": "ACTIVE",
+    "pnl_pct": 0.19,
+    "hours_active": 5,
+    "score": 5
+  },
+  {
+    "ticker": "FIL-USD",
+    "timestamp": "2025-08-16T06:34:34.125743",
+    "entry": 2.4743852615356445,
+    "current": 2.483137845993042,
+    "result": "ACTIVE",
+    "pnl_pct": 1.06,
+    "hours_active": 5,
+    "score": 6
+  },
+  {
+    "ticker": "ATOM-USD",
+    "timestamp": "2025-08-16T06:49:46.271396",
+    "entry": 4.491091251373291,
+    "current": 4.485558986663818,
+    "result": "ACTIVE",
+    "pnl_pct": -0.37,
+    "hours_active": 5,
+    "score": 5
+  },
+  {
+    "ticker": "FIL-USD",
+    "timestamp": "2025-08-16T06:49:46.491768",
+    "entry": 2.4821362495422363,
+    "current": 2.483137845993042,
+    "result": "ACTIVE",
+    "pnl_pct": 0.12,
+    "hours_active": 5,
+    "score": 6
+  },
+  {
+    "ticker": "FIL-USD",
+    "timestamp": "2025-08-16T07:04:59.409741",
+    "entry": 2.490039110183716,
+    "current": 2.483137845993042,
+    "result": "ACTIVE",
+    "pnl_pct": -0.83,
+    "hours_active": 4,
+    "score": 6
+  },
+  {
+    "ticker": "FIL-USD",
+    "timestamp": "2025-08-16T07:20:11.720971",
+    "entry": 2.5003724098205566,
+    "current": 2.483137845993042,
+    "result": "ACTIVE",
+    "pnl_pct": -2.07,
+    "hours_active": 4,
+    "score": 6
+  },
+  {
+    "ticker": "FIL-USD",
+    "timestamp": "2025-08-16T07:35:24.561441",
+    "entry": 2.500518798828125,
+    "current": 2.483137845993042,
+    "result": "ACTIVE",
+    "pnl_pct": -2.09,
+    "hours_active": 4,
+    "score": 6
+  },
+  {
+    "ticker": "FIL-USD",
+    "timestamp": "2025-08-16T07:50:36.939499",
+    "entry": 2.4833250045776367,
+    "current": 2.483137845993042,
+    "result": "ACTIVE",
+    "pnl_pct": -0.02,
+    "hours_active": 4,
+    "score": 6
+  },
+  {
+    "ticker": "FIL-USD",
+    "timestamp": "2025-08-16T08:05:49.146613",
+    "entry": 2.482255458831787,
+    "current": 2.483137845993042,
+    "result": "ACTIVE",
+    "pnl_pct": 0.11,
+    "hours_active": 3,
+    "score": 6
+  },
+  {
+    "ticker": "FIL-USD",
+    "timestamp": "2025-08-16T08:21:01.562669",
+    "entry": 2.483811378479004,
+    "current": 2.483137845993042,
+    "result": "ACTIVE",
+    "pnl_pct": -0.08,
+    "hours_active": 3,
+    "score": 6
+  },
+  {
+    "ticker": "FIL-USD",
+    "timestamp": "2025-08-16T08:36:14.064171",
+    "entry": 2.4900200366973877,
+    "current": 2.483137845993042,
+    "result": "ACTIVE",
+    "pnl_pct": -0.83,
+    "hours_active": 3,
+    "score": 6
+  },
+  {
+    "ticker": "FIL-USD",
+    "timestamp": "2025-08-16T08:51:26.587738",
+    "entry": 2.501457452774048,
+    "current": 2.483137845993042,
+    "result": "ACTIVE",
+    "pnl_pct": -2.2,
+    "hours_active": 3,
+    "score": 6
+  },
+  {
+    "ticker": "FIL-USD",
+    "timestamp": "2025-08-16T09:06:38.785919",
+    "entry": 2.512592315673828,
+    "exit": 2.48746639251709,
+    "result": "STOP_LOSS",
+    "pnl_pct": -3.0,
+    "hours_to_result": 2,
+    "score": 6
+  }
+]

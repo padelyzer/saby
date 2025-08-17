@@ -1,0 +1,2 @@
+ticker,type,price,score,confidence,stop_loss,take_profit,atr,reason,ml_prediction,trend,timestamp
+XRP-USD,SHORT,3.101121664047241,-4,MEDIUM,3.1941553139686585,2.946065580844879,0.014788559504917689,"MACD bearish cross, ML bearish (0.26)",0.25730096476437997,lateral,2025-08-16 11:40:09.153586

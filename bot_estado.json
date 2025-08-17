@@ -1,0 +1,106 @@
+{
+  "balance": 99.5,
+  "posiciones_abiertas": [
+    {
+      "ticker": "BTC-USD",
+      "precio_entrada": 117536.9921875,
+      "stop_loss": 111660.142578125,
+      "take_profit": 129290.69140625001,
+      "tamano_usd": 10.0,
+      "atr": 2852.2120535714284,
+      "fecha_entrada": "2025-08-16T00:49:54.243629",
+      "score_entrada": 3
+    },
+    {
+      "ticker": "ETH-USD",
+      "precio_entrada": 4429.30419921875,
+      "stop_loss": 4207.8389892578125,
+      "take_profit": 4872.234619140625,
+      "tamano_usd": 10.0,
+      "atr": 226.48979840959822,
+      "fecha_entrada": "2025-08-16T00:49:54.425237",
+      "score_entrada": 3
+    },
+    {
+      "ticker": "BNB-USD",
+      "precio_entrada": 832.2899780273438,
+      "stop_loss": 790.6754791259765,
+      "take_profit": 915.5189758300781,
+      "tamano_usd": 10.0,
+      "atr": 26.343706403459823,
+      "fecha_entrada": "2025-08-16T00:49:54.608428",
+      "score_entrada": 3
+    },
+    {
+      "ticker": "XRP-USD",
+      "precio_entrada": 3.106870412826538,
+      "stop_loss": 2.951526892185211,
+      "take_profit": 3.417557454109192,
+      "tamano_usd": 10.0,
+      "atr": 0.17260735375540598,
+      "fecha_entrada": "2025-08-16T00:49:54.974603",
+      "score_entrada": 3
+    },
+    {
+      "ticker": "SOL-USD",
+      "precio_entrada": 187.0876007080078,
+      "stop_loss": 177.73322067260742,
+      "take_profit": 205.7963607788086,
+      "tamano_usd": 10.0,
+      "atr": 10.396688188825335,
+      "fecha_entrada": "2025-08-16T00:49:55.187802",
+      "score_entrada": 4
+    },
+    {
+      "ticker": "DOT-USD",
+      "precio_entrada": 3.9098854064941406,
+      "stop_loss": 3.7143911361694335,
+      "take_profit": 4.300873947143555,
+      "tamano_usd": 10.0,
+      "atr": 0.2198880910873413,
+      "fecha_entrada": "2025-08-16T00:49:55.375412",
+      "score_entrada": 4
+    },
+    {
+      "ticker": "DOGE-USD",
+      "precio_entrada": 0.2309708148241043,
+      "stop_loss": 0.21942227408289908,
+      "take_profit": 0.2540678963065148,
+      "tamano_usd": 10.0,
+      "atr": 0.015819498470851352,
+      "fecha_entrada": "2025-08-16T00:49:55.649877",
+      "score_entrada": 4
+    },
+    {
+      "ticker": "AVAX-USD",
+      "precio_entrada": 23.756431579589844,
+      "stop_loss": 22.568610000610352,
+      "take_profit": 26.13207473754883,
+      "tamano_usd": 10.0,
+      "atr": 1.4225414821079798,
+      "fecha_entrada": "2025-08-16T00:49:55.863927",
+      "score_entrada": 4
+    },
+    {
+      "ticker": "MATIC-USD",
+      "precio_entrada": 0.21641500294208527,
+      "stop_loss": 0.205594252794981,
+      "take_profit": 0.23805650323629382,
+      "tamano_usd": 10.0,
+      "atr": 0.010212857808385576,
+      "fecha_entrada": "2025-08-16T00:49:56.042604",
+      "score_entrada": 1.5
+    },
+    {
+      "ticker": "ADA-USD",
+      "precio_entrada": 0.9118762016296387,
+      "stop_loss": 0.8662823915481567,
+      "take_profit": 1.0030638217926027,
+      "tamano_usd": 10.0,
+      "atr": 0.05586402331079755,
+      "fecha_entrada": "2025-08-16T04:32:07.239719",
+      "score_entrada": 3
+    }
+  ],
+  "ultima_actualizacion": "2025-08-16T22:38:42.762426"
+}

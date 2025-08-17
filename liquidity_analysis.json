@@ -1,0 +1,1376 @@
+{
+  "current_price": 117875.2265625,
+  "pools": {
+    "above_price": [
+      {
+        "price": 118486.49976093753,
+        "strength": 3.4928682354670095,
+        "num_levels": 4,
+        "leverages": [
+          100
+        ],
+        "type": "LIQUIDITY_CLUSTER",
+        "distance_pct": 0.20252843164606385,
+        "components": [
+          {
+            "price": 118113.95741015628,
+            "leverage": 100,
+            "entry_price": 117526.32578125001,
+            "strength": 0.8821940421700307,
+            "type": "SHORT_LIQUIDATION",
+            "distance_pct": 0.20252843164606385
+          },
+          {
+            "price": 118362.31897734376,
+            "leverage": 100,
+            "entry_price": 117773.45171875,
+            "strength": 1.0,
+            "type": "SHORT_LIQUIDATION",
+            "distance_pct": 0.4132271292691816
+          },
+          {
+            "price": 118610.68054453128,
+            "leverage": 100,
+            "entry_price": 118020.57765625001,
+            "strength": 0.9234924425028338,
+            "type": "SHORT_LIQUIDATION",
+            "distance_pct": 0.623925826892324
+          },
+          {
+            "price": 118859.04211171877,
+            "leverage": 100,
+            "entry_price": 118267.70359375,
+            "strength": 0.6871817507941449,
+            "type": "SHORT_LIQUIDATION",
+            "distance_pct": 0.8346245245154417
+          }
+        ]
+      },
+      {
+        "price": 119576.45074281252,
+        "strength": 13.455040790768827,
+        "num_levels": 10,
+        "leverages": [
+          25,
+          50,
+          100
+        ],
+        "type": "LIQUIDITY_CLUSTER",
+        "distance_pct": 1.023766573486846,
+        "components": [
+          {
+            "price": 119081.99373046876,
+            "leverage": 25,
+            "entry_price": 115055.06640625,
+            "strength": 2.2641955777650677,
+            "type": "SHORT_LIQUIDATION",
+            "distance_pct": 1.023766573486846
+          },
+          {
+            "price": 119107.40367890627,
+            "leverage": 100,
+            "entry_price": 118514.82953125,
+            "strength": 0.9599280662557996,
+            "type": "SHORT_LIQUIDATION",
+            "distance_pct": 1.0453232221385718
+          },
+          {
+            "price": 119289.22066796878,
+            "leverage": 50,
+            "entry_price": 117526.32578125001,
+            "strength": 1.7643880843400614,
+            "type": "SHORT_LIQUIDATION",
+            "distance_pct": 1.1995685155430436
+          },
+          {
+            "price": 119355.76524609377,
+            "leverage": 100,
+            "entry_price": 118761.95546875,
+            "strength": 0.8241926937926349,
+            "type": "SHORT_LIQUIDATION",
+            "distance_pct": 1.2560219197617017
+          },
+          {
+            "price": 119540.05349453127,
+            "leverage": 50,
+            "entry_price": 117773.45171875,
+            "strength": 2.0,
+            "type": "SHORT_LIQUIDATION",
+            "distance_pct": 1.4123637176201236
+          },
+          {
+            "price": 119604.12681328127,
+            "leverage": 100,
+            "entry_price": 119009.08140625,
+            "strength": 0.6816077806689437,
+            "type": "SHORT_LIQUIDATION",
+            "distance_pct": 1.4667206173848317
+          },
+          {
+            "price": 119790.88632109377,
+            "leverage": 50,
+            "entry_price": 118020.57765625001,
+            "strength": 1.8469848850056676,
+            "type": "SHORT_LIQUIDATION",
+            "distance_pct": 1.6251589196972158
+          },
+          {
+            "price": 119852.48838046877,
+            "leverage": 100,
+            "entry_price": 119256.20734375001,
+            "strength": 0.8901266291021475,
+            "type": "SHORT_LIQUIDATION",
+            "distance_pct": 1.677419315007962
+          },
+          {
+            "price": 120041.71914765627,
+            "leverage": 50,
+            "entry_price": 118267.70359375,
+            "strength": 1.3743635015882898,
+            "type": "SHORT_LIQUIDATION",
+            "distance_pct": 1.8379541217743083
+          },
+          {
+            "price": 120100.84994765627,
+            "leverage": 100,
+            "entry_price": 119503.33328125,
+            "strength": 0.8492535722502135,
+            "type": "SHORT_LIQUIDATION",
+            "distance_pct": 1.8881180126310921
+          }
+        ]
+      },
+      {
+        "price": 120581.54985015627,
+        "strength": 9.541954811845386,
+        "num_levels": 5,
+        "leverages": [
+          50,
+          20
+        ],
+        "type": "LIQUIDITY_CLUSTER",
+        "distance_pct": 1.9998416128442151,
+        "components": [
+          {
+            "price": 120232.54439453127,
+            "leverage": 20,
+            "entry_price": 115055.06640625,
+            "strength": 2.830244472206335,
+            "type": "SHORT_LIQUIDATION",
+            "distance_pct": 1.9998416128442151
+          },
+          {
+            "price": 120292.55197421876,
+            "leverage": 50,
+            "entry_price": 118514.82953125,
+            "strength": 1.9198561325115993,
+            "type": "SHORT_LIQUIDATION",
+            "distance_pct": 2.0507493238513885
+          },
+          {
+            "price": 120543.38480078128,
+            "leverage": 50,
+            "entry_price": 118761.95546875,
+            "strength": 1.6483853875852699,
+            "type": "SHORT_LIQUIDATION",
+            "distance_pct": 2.263544525928493
+          },
+          {
+            "price": 120794.21762734377,
+            "leverage": 50,
+            "entry_price": 119009.08140625,
+            "strength": 1.3632155613378873,
+            "type": "SHORT_LIQUIDATION",
+            "distance_pct": 2.476339728005573
+          },
+          {
+            "price": 121045.05045390627,
+            "leverage": 50,
+            "entry_price": 119256.20734375001,
+            "strength": 1.780253258204295,
+            "type": "SHORT_LIQUIDATION",
+            "distance_pct": 2.6891349300826652
+          }
+        ]
+      },
+      {
+        "price": 121745.6127167969,
+        "strength": 12.921253083191885,
+        "num_levels": 4,
+        "leverages": [
+          25,
+          50
+        ],
+        "type": "LIQUIDITY_CLUSTER",
+        "distance_pct": 2.9019301321597575,
+        "components": [
+          {
+            "price": 121295.88328046877,
+            "leverage": 50,
+            "entry_price": 119503.33328125,
+            "strength": 1.698507144500427,
+            "type": "SHORT_LIQUIDATION",
+            "distance_pct": 2.9019301321597575
+          },
+          {
+            "price": 121639.74718359378,
+            "leverage": 25,
+            "entry_price": 117526.32578125001,
+            "strength": 3.528776168680123,
+            "type": "SHORT_LIQUIDATION",
+            "distance_pct": 3.1936486833369906
+          },
+          {
+            "price": 121895.52252890627,
+            "leverage": 25,
+            "entry_price": 117773.45171875,
+            "strength": 4.0,
+            "type": "SHORT_LIQUIDATION",
+            "distance_pct": 3.4106368943219953
+          },
+          {
+            "price": 122151.29787421878,
+            "leverage": 25,
+            "entry_price": 118020.57765625001,
+            "strength": 3.693969770011335,
+            "type": "SHORT_LIQUIDATION",
+            "distance_pct": 3.6276251053070245
+          }
+        ]
+      },
+      {
+        "price": 123044.73788272572,
+        "strength": 33.63648885978973,
+        "num_levels": 9,
+        "leverages": [
+          25,
+          20
+        ],
+        "type": "LIQUIDITY_CLUSTER",
+        "distance_pct": 3.844613316292029,
+        "components": [
+          {
+            "price": 122407.07321953127,
+            "leverage": 25,
+            "entry_price": 118267.70359375,
+            "strength": 2.7487270031765796,
+            "type": "SHORT_LIQUIDATION",
+            "distance_pct": 3.844613316292029
+          },
+          {
+            "price": 122662.84856484376,
+            "leverage": 25,
+            "entry_price": 118514.82953125,
+            "strength": 3.8397122650231985,
+            "type": "SHORT_LIQUIDATION",
+            "distance_pct": 4.061601527277034
+          },
+          {
+            "price": 122815.01044140628,
+            "leverage": 20,
+            "entry_price": 117526.32578125001,
+            "strength": 4.410970210850154,
+            "type": "SHORT_LIQUIDATION",
+            "distance_pct": 4.19068876723397
+          },
+          {
+            "price": 122918.62391015627,
+            "leverage": 25,
+            "entry_price": 118761.95546875,
+            "strength": 3.2967707751705397,
+            "type": "SHORT_LIQUIDATION",
+            "distance_pct": 4.278589738262051
+          },
+          {
+            "price": 123073.25704609377,
+            "leverage": 20,
+            "entry_price": 117773.45171875,
+            "strength": 5.0,
+            "type": "SHORT_LIQUIDATION",
+            "distance_pct": 4.409773482672938
+          },
+          {
+            "price": 123174.39925546877,
+            "leverage": 25,
+            "entry_price": 119009.08140625,
+            "strength": 2.7264311226757747,
+            "type": "SHORT_LIQUIDATION",
+            "distance_pct": 4.4955779492470676
+          },
+          {
+            "price": 123331.50365078128,
+            "leverage": 20,
+            "entry_price": 118020.57765625001,
+            "strength": 4.617462212514169,
+            "type": "SHORT_LIQUIDATION",
+            "distance_pct": 4.628858198111916
+          },
+          {
+            "price": 123430.17460078128,
+            "leverage": 25,
+            "entry_price": 119256.20734375001,
+            "strength": 3.56050651640859,
+            "type": "SHORT_LIQUIDATION",
+            "distance_pct": 4.712566160232084
+          },
+          {
+            "price": 123589.75025546877,
+            "leverage": 20,
+            "entry_price": 118267.70359375,
+            "strength": 3.4359087539707245,
+            "type": "SHORT_LIQUIDATION",
+            "distance_pct": 4.847942913550883
+          }
+        ]
+      },
+      {
+        "price": 124001.17008515626,
+        "strength": 15.725656992587744,
+        "num_levels": 4,
+        "leverages": [
+          25,
+          20
+        ],
+        "type": "LIQUIDITY_CLUSTER",
+        "distance_pct": 4.929554371217089,
+        "components": [
+          {
+            "price": 123685.94994609377,
+            "leverage": 25,
+            "entry_price": 119503.33328125,
+            "strength": 3.397014289000854,
+            "type": "SHORT_LIQUIDATION",
+            "distance_pct": 4.929554371217089
+          },
+          {
+            "price": 123847.99686015627,
+            "leverage": 20,
+            "entry_price": 118514.82953125,
+            "strength": 4.799640331278998,
+            "type": "SHORT_LIQUIDATION",
+            "distance_pct": 5.067027628989862
+          },
+          {
+            "price": 124106.24346484378,
+            "leverage": 20,
+            "entry_price": 118761.95546875,
+            "strength": 4.120963468963175,
+            "type": "SHORT_LIQUIDATION",
+            "distance_pct": 5.286112344428841
+          },
+          {
+            "price": 124364.49006953127,
+            "leverage": 20,
+            "entry_price": 119009.08140625,
+            "strength": 3.4080389033447185,
+            "type": "SHORT_LIQUIDATION",
+            "distance_pct": 5.505197059867808
+          }
+        ]
+      },
+      {
+        "price": 124751.85997656253,
+        "strength": 8.696901006761806,
+        "num_levels": 2,
+        "leverages": [
+          20
+        ],
+        "type": "LIQUIDITY_CLUSTER",
+        "distance_pct": 5.724281775306788,
+        "components": [
+          {
+            "price": 124622.73667421877,
+            "leverage": 20,
+            "entry_price": 119256.20734375001,
+            "strength": 4.4506331455107375,
+            "type": "SHORT_LIQUIDATION",
+            "distance_pct": 5.724281775306788
+          },
+          {
+            "price": 124880.98327890626,
+            "leverage": 20,
+            "entry_price": 119503.33328125,
+            "strength": 4.246267861251067,
+            "type": "SHORT_LIQUIDATION",
+            "distance_pct": 5.943366490745754
+          }
+        ]
+      },
+      {
+        "price": 125775.40483398439,
+        "strength": 10.16048894441267,
+        "num_levels": 2,
+        "leverages": [
+          10
+        ],
+        "type": "LIQUIDITY_CLUSTER",
+        "distance_pct": 6.5240895944725406,
+        "components": [
+          {
+            "price": 125565.511953125,
+            "leverage": 0,
+            "entry_price": 124322.2890625,
+            "strength": 4.5,
+            "type": "SHORT_STOPS",
+            "distance_pct": 6.5240895944725406
+          },
+          {
+            "price": 125985.29771484378,
+            "leverage": 10,
+            "entry_price": 115055.06640625,
+            "strength": 5.66048894441267,
+            "type": "SHORT_LIQUIDATION",
+            "distance_pct": 6.8802168096310234
+          }
+        ]
+      },
+      {
+        "price": 128568.40469895834,
+        "strength": 22.321940421700308,
+        "num_levels": 3,
+        "leverages": [
+          10
+        ],
+        "type": "LIQUIDITY_CLUSTER",
+        "distance_pct": 8.633477507234378,
+        "components": [
+          {
+            "price": 128051.957734375,
+            "leverage": 0,
+            "entry_price": 124322.2890625,
+            "strength": 3.5,
+            "type": "SHORT_STOPS",
+            "distance_pct": 8.633477507234378
+          },
+          {
+            "price": 128691.32673046878,
+            "leverage": 10,
+            "entry_price": 117526.32578125001,
+            "strength": 8.821940421700308,
+            "type": "SHORT_LIQUIDATION",
+            "distance_pct": 9.175889186718845
+          },
+          {
+            "price": 128961.92963203127,
+            "leverage": 10,
+            "entry_price": 117773.45171875,
+            "strength": 10.0,
+            "type": "SHORT_LIQUIDATION",
+            "distance_pct": 9.405456424427621
+          }
+        ]
+      },
+      {
+        "price": 129638.43688593752,
+        "strength": 33.947949533454135,
+        "num_levels": 4,
+        "leverages": [
+          10
+        ],
+        "type": "LIQUIDITY_CLUSTER",
+        "distance_pct": 9.635023662136414,
+        "components": [
+          {
+            "price": 129232.53253359378,
+            "leverage": 10,
+            "entry_price": 118020.57765625001,
+            "strength": 9.234924425028337,
+            "type": "SHORT_LIQUIDATION",
+            "distance_pct": 9.635023662136414
+          },
+          {
+            "price": 129503.13543515628,
+            "leverage": 10,
+            "entry_price": 118267.70359375,
+            "strength": 6.871817507941449,
+            "type": "SHORT_LIQUIDATION",
+            "distance_pct": 9.86459089984519
+          },
+          {
+            "price": 129773.73833671877,
+            "leverage": 10,
+            "entry_price": 118514.82953125,
+            "strength": 9.599280662557996,
+            "type": "SHORT_LIQUIDATION",
+            "distance_pct": 10.09415813755397
+          },
+          {
+            "price": 130044.34123828128,
+            "leverage": 10,
+            "entry_price": 118761.95546875,
+            "strength": 8.24192693792635,
+            "type": "SHORT_LIQUIDATION",
+            "distance_pct": 10.323725375262761
+          }
+        ]
+      },
+      {
+        "price": 130585.54704140627,
+        "strength": 24.209879820213047,
+        "num_levels": 3,
+        "leverages": [
+          10
+        ],
+        "type": "LIQUIDITY_CLUSTER",
+        "distance_pct": 10.55329261297154,
+        "components": [
+          {
+            "price": 130314.94413984378,
+            "leverage": 10,
+            "entry_price": 119009.08140625,
+            "strength": 6.816077806689437,
+            "type": "SHORT_LIQUIDATION",
+            "distance_pct": 10.55329261297154
+          },
+          {
+            "price": 130585.54704140629,
+            "leverage": 10,
+            "entry_price": 119256.20734375001,
+            "strength": 8.901266291021475,
+            "type": "SHORT_LIQUIDATION",
+            "distance_pct": 10.78285985068033
+          },
+          {
+            "price": 130856.14994296877,
+            "leverage": 10,
+            "entry_price": 119503.33328125,
+            "strength": 8.492535722502135,
+            "type": "SHORT_LIQUIDATION",
+            "distance_pct": 11.012427088389096
+          }
+        ]
+      },
+      {
+        "price": 140886.93255156252,
+        "strength": 69.85736470934019,
+        "num_levels": 4,
+        "leverages": [
+          5
+        ],
+        "type": "LIQUIDITY_CLUSTER",
+        "distance_pct": 19.146290025688593,
+        "components": [
+          {
+            "price": 140443.95930859377,
+            "leverage": 5,
+            "entry_price": 117526.32578125001,
+            "strength": 17.643880843400616,
+            "type": "SHORT_LIQUIDATION",
+            "distance_pct": 19.146290025688593
+          },
+          {
+            "price": 140739.27480390627,
+            "leverage": 5,
+            "entry_price": 117773.45171875,
+            "strength": 20.0,
+            "type": "SHORT_LIQUIDATION",
+            "distance_pct": 19.396822307936993
+          },
+          {
+            "price": 141034.59029921878,
+            "leverage": 5,
+            "entry_price": 118020.57765625001,
+            "strength": 18.469848850056675,
+            "type": "SHORT_LIQUIDATION",
+            "distance_pct": 19.647354590185394
+          },
+          {
+            "price": 141329.90579453125,
+            "leverage": 5,
+            "entry_price": 118267.70359375,
+            "strength": 13.743635015882898,
+            "type": "SHORT_LIQUIDATION",
+            "distance_pct": 19.89788687243377
+          }
+        ]
+      }
+    ],
+    "below_price": [
+      {
+        "price": 94907.0968234375,
+        "strength": 69.85736470934019,
+        "num_levels": 4,
+        "leverages": [
+          5
+        ],
+        "type": "LIQUIDITY_CLUSTER",
+        "distance_pct": -19.738273246293456,
+        "components": [
+          {
+            "price": 94608.69225390627,
+            "leverage": 5,
+            "entry_price": 117526.32578125001,
+            "strength": 17.643880843400616,
+            "type": "LONG_LIQUIDATION",
+            "distance_pct": -19.738273246293456
+          },
+          {
+            "price": 94807.62863359376,
+            "leverage": 5,
+            "entry_price": 117773.45171875,
+            "strength": 20.0,
+            "type": "LONG_LIQUIDATION",
+            "distance_pct": -19.56950463774956
+          },
+          {
+            "price": 95006.56501328126,
+            "leverage": 5,
+            "entry_price": 118020.57765625001,
+            "strength": 18.469848850056675,
+            "type": "LONG_LIQUIDATION",
+            "distance_pct": -19.40073602920566
+          },
+          {
+            "price": 95205.50139296876,
+            "leverage": 5,
+            "entry_price": 118267.70359375,
+            "strength": 13.743635015882898,
+            "type": "LONG_LIQUIDATION",
+            "distance_pct": -19.231967420661768
+          }
+        ]
+      },
+      {
+        "price": 95702.8423421875,
+        "strength": 67.11710339639052,
+        "num_levels": 4,
+        "leverages": [
+          5
+        ],
+        "type": "LIQUIDITY_CLUSTER",
+        "distance_pct": -19.06319881211787,
+        "components": [
+          {
+            "price": 95404.43777265625,
+            "leverage": 5,
+            "entry_price": 118514.82953125,
+            "strength": 19.198561325115993,
+            "type": "LONG_LIQUIDATION",
+            "distance_pct": -19.06319881211787
+          },
+          {
+            "price": 95603.37415234376,
+            "leverage": 5,
+            "entry_price": 118761.95546875,
+            "strength": 16.4838538758527,
+            "type": "LONG_LIQUIDATION",
+            "distance_pct": -18.89443020357396
+          },
+          {
+            "price": 95802.31053203126,
+            "leverage": 5,
+            "entry_price": 119009.08140625,
+            "strength": 13.632155613378874,
+            "type": "LONG_LIQUIDATION",
+            "distance_pct": -18.72566159503006
+          },
+          {
+            "price": 96001.24691171876,
+            "leverage": 5,
+            "entry_price": 119256.20734375001,
+            "strength": 17.80253258204295,
+            "type": "LONG_LIQUIDATION",
+            "distance_pct": -18.55689298648617
+          }
+        ]
+      },
+      {
+        "price": 106696.79829218751,
+        "strength": 34.928682354670094,
+        "num_levels": 4,
+        "leverages": [
+          10
+        ],
+        "type": "LIQUIDITY_CLUSTER",
+        "distance_pct": -9.767872407323708,
+        "components": [
+          {
+            "price": 106361.32483203126,
+            "leverage": 10,
+            "entry_price": 117526.32578125001,
+            "strength": 8.821940421700308,
+            "type": "LONG_LIQUIDATION",
+            "distance_pct": -9.767872407323708
+          },
+          {
+            "price": 106584.97380546876,
+            "leverage": 10,
+            "entry_price": 117773.45171875,
+            "strength": 10.0,
+            "type": "LONG_LIQUIDATION",
+            "distance_pct": -9.578138754240188
+          },
+          {
+            "price": 106808.62277890627,
+            "leverage": 10,
+            "entry_price": 118020.57765625001,
+            "strength": 9.234924425028337,
+            "type": "LONG_LIQUIDATION",
+            "distance_pct": -9.38840510115667
+          },
+          {
+            "price": 107032.27175234376,
+            "leverage": 10,
+            "entry_price": 118267.70359375,
+            "strength": 6.871817507941449,
+            "type": "LONG_LIQUIDATION",
+            "distance_pct": -9.198671448073162
+          }
+        ]
+      },
+      {
+        "price": 107591.39418593752,
+        "strength": 33.55855169819526,
+        "num_levels": 4,
+        "leverages": [
+          10
+        ],
+        "type": "LIQUIDITY_CLUSTER",
+        "distance_pct": -9.008937794989654,
+        "components": [
+          {
+            "price": 107255.92072578125,
+            "leverage": 10,
+            "entry_price": 118514.82953125,
+            "strength": 9.599280662557996,
+            "type": "LONG_LIQUIDATION",
+            "distance_pct": -9.008937794989654
+          },
+          {
+            "price": 107479.56969921876,
+            "leverage": 10,
+            "entry_price": 118761.95546875,
+            "strength": 8.24192693792635,
+            "type": "LONG_LIQUIDATION",
+            "distance_pct": -8.819204141906136
+          },
+          {
+            "price": 107703.21867265625,
+            "leverage": 10,
+            "entry_price": 119009.08140625,
+            "strength": 6.816077806689437,
+            "type": "LONG_LIQUIDATION",
+            "distance_pct": -8.629470488822628
+          },
+          {
+            "price": 107926.86764609376,
+            "leverage": 10,
+            "entry_price": 119256.20734375001,
+            "strength": 8.901266291021475,
+            "type": "LONG_LIQUIDATION",
+            "distance_pct": -8.439736835739108
+          }
+        ]
+      },
+      {
+        "price": 112591.64902656252,
+        "strength": 17.464341177335047,
+        "num_levels": 4,
+        "leverages": [
+          20
+        ],
+        "type": "LIQUIDITY_CLUSTER",
+        "distance_pct": -4.782671987838834,
+        "components": [
+          {
+            "price": 112237.64112109375,
+            "leverage": 20,
+            "entry_price": 117526.32578125001,
+            "strength": 4.410970210850154,
+            "type": "LONG_LIQUIDATION",
+            "distance_pct": -4.782671987838834
+          },
+          {
+            "price": 112473.64639140625,
+            "leverage": 20,
+            "entry_price": 117773.45171875,
+            "strength": 5.0,
+            "type": "LONG_LIQUIDATION",
+            "distance_pct": -4.582455812485517
+          },
+          {
+            "price": 112709.65166171876,
+            "leverage": 20,
+            "entry_price": 118020.57765625001,
+            "strength": 4.617462212514169,
+            "type": "LONG_LIQUIDATION",
+            "distance_pct": -4.382239637132185
+          },
+          {
+            "price": 112945.65693203126,
+            "leverage": 20,
+            "entry_price": 118267.70359375,
+            "strength": 3.4359087539707245,
+            "type": "LONG_LIQUIDATION",
+            "distance_pct": -4.182023461778867
+          }
+        ]
+      },
+      {
+        "price": 113539.0654310764,
+        "strength": 32.63411957667162,
+        "num_levels": 9,
+        "leverages": [
+          25,
+          50,
+          20
+        ],
+        "type": "LIQUIDITY_CLUSTER",
+        "distance_pct": -3.98180728642556,
+        "components": [
+          {
+            "price": 113181.66220234374,
+            "leverage": 20,
+            "entry_price": 118514.82953125,
+            "strength": 4.799640331278998,
+            "type": "LONG_LIQUIDATION",
+            "distance_pct": -3.98180728642556
+          },
+          {
+            "price": 113329.24041015624,
+            "leverage": 50,
+            "entry_price": 115055.06640625,
+            "strength": 1.1320977888825339,
+            "type": "LONG_LIQUIDATION",
+            "distance_pct": -3.8566086232999752
+          },
+          {
+            "price": 113412.90437890626,
+            "leverage": 25,
+            "entry_price": 117526.32578125001,
+            "strength": 3.528776168680123,
+            "type": "LONG_LIQUIDATION",
+            "distance_pct": -3.785631903941855
+          },
+          {
+            "price": 113417.66747265625,
+            "leverage": 20,
+            "entry_price": 118761.95546875,
+            "strength": 4.120963468963175,
+            "type": "LONG_LIQUIDATION",
+            "distance_pct": -3.7815911110722293
+          },
+          {
+            "price": 113425.5253125,
+            "leverage": 0,
+            "entry_price": 116933.53125,
+            "strength": 3.5,
+            "type": "LONG_STOPS",
+            "distance_pct": -3.774924875873448
+          },
+          {
+            "price": 113651.38090859375,
+            "leverage": 25,
+            "entry_price": 117773.45171875,
+            "strength": 4.0,
+            "type": "LONG_LIQUIDATION",
+            "distance_pct": -3.5833192241345744
+          },
+          {
+            "price": 113653.67274296875,
+            "leverage": 20,
+            "entry_price": 119009.08140625,
+            "strength": 3.4080389033447185,
+            "type": "LONG_LIQUIDATION",
+            "distance_pct": -3.58137493571891
+          },
+          {
+            "price": 113889.67801328126,
+            "leverage": 20,
+            "entry_price": 119256.20734375001,
+            "strength": 4.4506331455107375,
+            "type": "LONG_LIQUIDATION",
+            "distance_pct": -3.3811587603655795
+          },
+          {
+            "price": 113889.85743828125,
+            "leverage": 25,
+            "entry_price": 118020.57765625001,
+            "strength": 3.693969770011335,
+            "type": "LONG_LIQUIDATION",
+            "distance_pct": -3.381006544327293
+          }
+        ]
+      },
+      {
+        "price": 114449.21857611607,
+        "strength": 21.423957921738424,
+        "num_levels": 7,
+        "leverages": [
+          100,
+          25,
+          20
+        ],
+        "type": "LIQUIDITY_CLUSTER",
+        "distance_pct": -3.1809425850122612,
+        "components": [
+          {
+            "price": 114125.68328359375,
+            "leverage": 20,
+            "entry_price": 119503.33328125,
+            "strength": 4.246267861251067,
+            "type": "LONG_LIQUIDATION",
+            "distance_pct": -3.1809425850122612
+          },
+          {
+            "price": 114128.33396796875,
+            "leverage": 25,
+            "entry_price": 118267.70359375,
+            "strength": 2.7487270031765796,
+            "type": "LONG_LIQUIDATION",
+            "distance_pct": -3.1786938645200125
+          },
+          {
+            "price": 114366.81049765625,
+            "leverage": 25,
+            "entry_price": 118514.82953125,
+            "strength": 3.8397122650231985,
+            "type": "LONG_LIQUIDATION",
+            "distance_pct": -2.9763811847127313
+          },
+          {
+            "price": 114479.79107421875,
+            "leverage": 100,
+            "entry_price": 115055.06640625,
+            "strength": 0.5660488944412669,
+            "type": "LONG_LIQUIDATION",
+            "distance_pct": -2.8805335839426056
+          },
+          {
+            "price": 114594.860625,
+            "leverage": 0,
+            "entry_price": 116933.53125,
+            "strength": 4.0,
+            "type": "LONG_STOPS",
+            "distance_pct": -2.782913792119566
+          },
+          {
+            "price": 114605.28702734376,
+            "leverage": 25,
+            "entry_price": 118761.95546875,
+            "strength": 3.2967707751705397,
+            "type": "LONG_LIQUIDATION",
+            "distance_pct": -2.774068504905438
+          },
+          {
+            "price": 114843.76355703124,
+            "leverage": 25,
+            "entry_price": 119009.08140625,
+            "strength": 2.7264311226757747,
+            "type": "LONG_LIQUIDATION",
+            "distance_pct": -2.5717558250981694
+          }
+        ]
+      },
+      {
+        "price": 115587.48669562498,
+        "strength": 15.221908889749505,
+        "num_levels": 5,
+        "leverages": [
+          25,
+          50
+        ],
+        "type": "LIQUIDITY_CLUSTER",
+        "distance_pct": -2.3694431452908766,
+        "components": [
+          {
+            "price": 115082.24008671875,
+            "leverage": 25,
+            "entry_price": 119256.20734375001,
+            "strength": 3.56050651640859,
+            "type": "LONG_LIQUIDATION",
+            "distance_pct": -2.3694431452908766
+          },
+          {
+            "price": 115320.71661640625,
+            "leverage": 25,
+            "entry_price": 119503.33328125,
+            "strength": 3.397014289000854,
+            "type": "LONG_LIQUIDATION",
+            "distance_pct": -2.1671304654835954
+          },
+          {
+            "price": 115763.43089453125,
+            "leverage": 50,
+            "entry_price": 117526.32578125001,
+            "strength": 1.7643880843400614,
+            "type": "LONG_LIQUIDATION",
+            "distance_pct": -1.7915517361479079
+          },
+          {
+            "price": 115764.1959375,
+            "leverage": 0,
+            "entry_price": 116933.53125,
+            "strength": 4.5,
+            "type": "LONG_STOPS",
+            "distance_pct": -1.7909027083656845
+          },
+          {
+            "price": 116006.84994296875,
+            "leverage": 50,
+            "entry_price": 117773.45171875,
+            "strength": 2.0,
+            "type": "LONG_LIQUIDATION",
+            "distance_pct": -1.5850460474327022
+          }
+        ]
+      },
+      {
+        "price": 116829.83057912948,
+        "strength": 10.034999510198745,
+        "num_levels": 7,
+        "leverages": [
+          50,
+          100
+        ],
+        "type": "LIQUIDITY_CLUSTER",
+        "distance_pct": -1.3785403587174845,
+        "components": [
+          {
+            "price": 116250.26899140626,
+            "leverage": 50,
+            "entry_price": 118020.57765625001,
+            "strength": 1.8469848850056676,
+            "type": "LONG_LIQUIDATION",
+            "distance_pct": -1.3785403587174845
+          },
+          {
+            "price": 116493.68803984375,
+            "leverage": 50,
+            "entry_price": 118267.70359375,
+            "strength": 1.3743635015882898,
+            "type": "LONG_LIQUIDATION",
+            "distance_pct": -1.1720346700022914
+          },
+          {
+            "price": 116737.10708828125,
+            "leverage": 50,
+            "entry_price": 118514.82953125,
+            "strength": 1.9198561325115993,
+            "type": "LONG_LIQUIDATION",
+            "distance_pct": -0.965528981287086
+          },
+          {
+            "price": 116938.69415234376,
+            "leverage": 100,
+            "entry_price": 117526.32578125001,
+            "strength": 0.8821940421700307,
+            "type": "LONG_LIQUIDATION",
+            "distance_pct": -0.7945116522509281
+          },
+          {
+            "price": 116980.52613671875,
+            "leverage": 50,
+            "entry_price": 118761.95546875,
+            "strength": 1.6483853875852699,
+            "type": "LONG_LIQUIDATION",
+            "distance_pct": -0.7590232925718805
+          },
+          {
+            "price": 117184.58446015626,
+            "leverage": 100,
+            "entry_price": 117773.45171875,
+            "strength": 1.0,
+            "type": "LONG_LIQUIDATION",
+            "distance_pct": -0.5859094590817604
+          },
+          {
+            "price": 117223.94518515625,
+            "leverage": 50,
+            "entry_price": 119009.08140625,
+            "strength": 1.3632155613378873,
+            "type": "LONG_LIQUIDATION",
+            "distance_pct": -0.552517603856675
+          }
+        ]
+      },
+      {
+        "price": 117729.23140572915,
+        "strength": 6.873555356050135,
+        "num_levels": 6,
+        "leverages": [
+          50,
+          100
+        ],
+        "type": "LIQUIDITY_CLUSTER",
+        "distance_pct": -0.37730726591259267,
+        "components": [
+          {
+            "price": 117430.47476796876,
+            "leverage": 100,
+            "entry_price": 118020.57765625001,
+            "strength": 0.9234924425028338,
+            "type": "LONG_LIQUIDATION",
+            "distance_pct": -0.37730726591259267
+          },
+          {
+            "price": 117467.36423359376,
+            "leverage": 50,
+            "entry_price": 119256.20734375001,
+            "strength": 1.780253258204295,
+            "type": "LONG_LIQUIDATION",
+            "distance_pct": -0.34601191514145724
+          },
+          {
+            "price": 117676.36507578126,
+            "leverage": 100,
+            "entry_price": 118267.70359375,
+            "strength": 0.6871817507941449,
+            "type": "LONG_LIQUIDATION",
+            "distance_pct": -0.1687050727434249
+          },
+          {
+            "price": 117710.78328203125,
+            "leverage": 50,
+            "entry_price": 119503.33328125,
+            "strength": 1.698507144500427,
+            "type": "LONG_LIQUIDATION",
+            "distance_pct": -0.13950622642626412
+          },
+          {
+            "price": 117922.25538359374,
+            "leverage": 100,
+            "entry_price": 118514.82953125,
+            "strength": 0.9599280662557996,
+            "type": "LONG_LIQUIDATION",
+            "distance_pct": 0.03989712042573052
+          },
+          {
+            "price": 118168.14569140626,
+            "leverage": 100,
+            "entry_price": 118761.95546875,
+            "strength": 0.8241926937926349,
+            "type": "LONG_LIQUIDATION",
+            "distance_pct": 0.24849931359491062
+          }
+        ]
+      },
+      {
+        "price": 118659.92630703124,
+        "strength": 2.4209879820213045,
+        "num_levels": 3,
+        "leverages": [
+          100
+        ],
+        "type": "LIQUIDITY_CLUSTER",
+        "distance_pct": 0.4571015067640661,
+        "components": [
+          {
+            "price": 118414.03599921874,
+            "leverage": 100,
+            "entry_price": 119009.08140625,
+            "strength": 0.6816077806689437,
+            "type": "LONG_LIQUIDATION",
+            "distance_pct": 0.4571015067640661
+          },
+          {
+            "price": 118659.92630703126,
+            "leverage": 100,
+            "entry_price": 119256.20734375001,
+            "strength": 0.8901266291021475,
+            "type": "LONG_LIQUIDATION",
+            "distance_pct": 0.6657036999332461
+          },
+          {
+            "price": 118905.81661484374,
+            "leverage": 100,
+            "entry_price": 119503.33328125,
+            "strength": 0.8492535722502135,
+            "type": "LONG_LIQUIDATION",
+            "distance_pct": 0.8743058931024016
+          }
+        ]
+      }
+    ]
+  },
+  "heatmap": [
+    {
+      "price": 113539.0654310764,
+      "strength": 32.63411957667162,
+      "importance": 23.857787645951532,
+      "distance_pct": -3.98180728642556,
+      "type": "LIQUIDITY_CLUSTER",
+      "direction": "BELOW"
+    },
+    {
+      "price": 94907.0968234375,
+      "strength": 69.85736470934019,
+      "importance": 23.692412959232062,
+      "distance_pct": -19.738273246293456,
+      "type": "LIQUIDITY_CLUSTER",
+      "direction": "BELOW"
+    },
+    {
+      "price": 140886.93255156252,
+      "strength": 69.85736470934019,
+      "importance": 23.662744873173658,
+      "distance_pct": 19.146290025688593,
+      "type": "LIQUIDITY_CLUSTER",
+      "direction": "ABOVE"
+    },
+    {
+      "price": 123044.73788272572,
+      "strength": 33.63648885978973,
+      "importance": 23.382088817037165,
+      "distance_pct": 3.844613316292029,
+      "type": "LIQUIDITY_CLUSTER",
+      "direction": "ABOVE"
+    },
+    {
+      "price": 95702.8423421875,
+      "strength": 67.11710339639052,
+      "importance": 23.29642362632146,
+      "distance_pct": -19.06319881211787,
+      "type": "LIQUIDITY_CLUSTER",
+      "direction": "BELOW"
+    },
+    {
+      "price": 106696.79829218751,
+      "strength": 34.928682354670094,
+      "importance": 17.927523921181667,
+      "distance_pct": -9.767872407323708,
+      "type": "LIQUIDITY_CLUSTER",
+      "direction": "BELOW"
+    },
+    {
+      "price": 107591.39418593752,
+      "strength": 33.55855169819526,
+      "importance": 17.922424240167146,
+      "distance_pct": -9.008937794989654,
+      "type": "LIQUIDITY_CLUSTER",
+      "direction": "BELOW"
+    },
+    {
+      "price": 129638.43688593752,
+      "strength": 33.947949533454135,
+      "importance": 16.9914976575872,
+      "distance_pct": 9.635023662136414,
+      "type": "LIQUIDITY_CLUSTER",
+      "direction": "ABOVE"
+    },
+    {
+      "price": 114449.21857611607,
+      "strength": 21.423957921738424,
+      "importance": 16.59939400794585,
+      "distance_pct": -3.1809425850122612,
+      "type": "LIQUIDITY_CLUSTER",
+      "direction": "BELOW"
+    },
+    {
+      "price": 115587.48669562498,
+      "strength": 15.221908889749505,
+      "importance": 12.747797464843194,
+      "distance_pct": -2.3694431452908766,
+      "type": "LIQUIDITY_CLUSTER",
+      "direction": "BELOW"
+    },
+    {
+      "price": 112591.64902656252,
+      "strength": 17.464341177335047,
+      "importance": 12.059053897330427,
+      "distance_pct": -4.782671987838834,
+      "type": "LIQUIDITY_CLUSTER",
+      "direction": "BELOW"
+    },
+    {
+      "price": 119576.45074281252,
+      "strength": 13.455040790768827,
+      "importance": 11.75806767549754,
+      "distance_pct": 1.023766573486846,
+      "type": "LIQUIDITY_CLUSTER",
+      "direction": "ABOVE"
+    },
+    {
+      "price": 128568.40469895834,
+      "strength": 22.321940421700308,
+      "importance": 11.704278299793868,
+      "distance_pct": 8.633477507234378,
+      "type": "LIQUIDITY_CLUSTER",
+      "direction": "ABOVE"
+    },
+    {
+      "price": 130585.54704140627,
+      "strength": 24.209879820213047,
+      "importance": 11.648964576653558,
+      "distance_pct": 10.55329261297154,
+      "type": "LIQUIDITY_CLUSTER",
+      "direction": "ABOVE"
+    },
+    {
+      "price": 124001.17008515626,
+      "strength": 15.725656992587744,
+      "importance": 10.347887797550866,
+      "distance_pct": 4.929554371217089,
+      "type": "LIQUIDITY_CLUSTER",
+      "direction": "ABOVE"
+    },
+    {
+      "price": 121745.6127167969,
+      "strength": 12.921253083191885,
+      "importance": 9.727324721847367,
+      "distance_pct": 2.9019301321597575,
+      "type": "LIQUIDITY_CLUSTER",
+      "direction": "ABOVE"
+    },
+    {
+      "price": 116829.83057912948,
+      "strength": 10.034999510198745,
+      "importance": 9.217527781772274,
+      "distance_pct": -1.3785403587174845,
+      "type": "LIQUIDITY_CLUSTER",
+      "direction": "BELOW"
+    },
+    {
+      "price": 120581.54985015627,
+      "strength": 9.541954811845386,
+      "importance": 7.760259696759792,
+      "distance_pct": 1.9998416128442151,
+      "type": "LIQUIDITY_CLUSTER",
+      "direction": "ABOVE"
+    },
+    {
+      "price": 117729.23140572915,
+      "strength": 6.873555356050135,
+      "importance": 6.78946399191904,
+      "distance_pct": -0.37730726591259267,
+      "type": "LIQUIDITY_CLUSTER",
+      "direction": "BELOW"
+    },
+    {
+      "price": 125775.40483398439,
+      "strength": 10.16048894441267,
+      "importance": 6.083340765407721,
+      "distance_pct": 6.5240895944725406,
+      "type": "LIQUIDITY_CLUSTER",
+      "direction": "ABOVE"
+    }
+  ],
+  "volume_nodes": [
+    {
+      "price": 117773.45171875,
+      "volume": "115779858432",
+      "normalized": 1.0
+    },
+    {
+      "price": 118514.82953125,
+      "volume": "111140335616",
+      "normalized": 0.9599280662557996
+    },
+    {
+      "price": 118020.57765625001,
+      "volume": "106921824256",
+      "normalized": 0.9234924425028338
+    },
+    {
+      "price": 119256.20734375001,
+      "volume": "103058735104",
+      "normalized": 0.8901266291021475
+    },
+    {
+      "price": 117526.32578125001,
+      "volume": "102140301312",
+      "normalized": 0.8821940421700307
+    }
+  ],
+  "analysis_time": "2025-08-16T10:24:34.863456"
+}

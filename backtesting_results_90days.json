@@ -1,0 +1,56 @@
+{
+  "BULL_MARKET_2024": {
+    "period_info": {
+      "name": "BULL_MARKET_2024",
+      "description": "Mercado alcista - Rally Q1 2024",
+      "start": "2024-01-01",
+      "end": "2024-03-31",
+      "expected_market": "BULLISH"
+    },
+    "metrics": {
+      "total_trades": 0,
+      "win_rate": 0,
+      "profit_factor": 0,
+      "total_return": 0,
+      "best_symbol": "N/A",
+      "worst_symbol": "N/A"
+    },
+    "trades_count": 0
+  },
+  "BEAR_MARKET_2024": {
+    "period_info": {
+      "name": "BEAR_MARKET_2024",
+      "description": "Mercado correctivo - Consolidaci\u00f3n Q2 2024",
+      "start": "2024-04-01",
+      "end": "2024-06-30",
+      "expected_market": "BEARISH"
+    },
+    "metrics": {
+      "total_trades": 0,
+      "win_rate": 0,
+      "profit_factor": 0,
+      "total_return": 0,
+      "best_symbol": "N/A",
+      "worst_symbol": "N/A"
+    },
+    "trades_count": 0
+  },
+  "RECOVERY_2024": {
+    "period_info": {
+      "name": "RECOVERY_2024",
+      "description": "Mercado de recuperaci\u00f3n - Q3 2024",
+      "start": "2024-07-01",
+      "end": "2024-09-30",
+      "expected_market": "RECOVERY"
+    },
+    "metrics": {
+      "total_trades": 0,
+      "win_rate": 0,
+      "profit_factor": 0,
+      "total_return": 0,
+      "best_symbol": "N/A",
+      "worst_symbol": "N/A"
+    },
+    "trades_count": 0
+  }
+}

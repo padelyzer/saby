@@ -1,0 +1,22 @@
+{
+  "telegram": {
+    "enabled": true,
+    "bot_token": "8433114763:AAExLQhROt2X66yUX6msH8pK5mLrwKVRhAs",
+    "chat_id": "943397764"
+  },
+  "discord": {
+    "enabled": false,
+    "webhook_url": ""
+  },
+  "email": {
+    "enabled": false
+  },
+  "webhook": {
+    "enabled": false
+  },
+  "filters": {
+    "min_score": 6,
+    "max_simultaneous_signals": 5,
+    "cooldown_minutes": 60
+  }
+}
