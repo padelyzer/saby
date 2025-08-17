@@ -92,9 +92,10 @@ class TelegramNotifier:
 🚀 <b>BOT INICIADO</b>
 
 ✅ Sistema V2.5 funcionando
-💰 Capital inicial: $10,000
+💰 Capital inicial: $206 USD
 🎯 Símbolos: BTC, ETH, SOL, BNB, ADA
 📊 Parámetros validados (70% WR)
+🧪 Modo: CAPITAL REAL - Operaciones reales
 
 ⏰ {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
             """.strip()
@@ -124,19 +125,19 @@ class TradingBotV25:
     """
     
     def __init__(self):
-        self.initial_capital = 10000
+        self.initial_capital = 206
         self.current_capital = self.initial_capital
         
-        # Parámetros V2.5 validados
+        # Parámetros V2.5 validados - Ajustados para capital real $206
         self.params = {
             'rsi_oversold': 40,
             'rsi_overbought': 60,
             'atr_stop_multiplier': 2.0,
             'atr_target_multiplier': 3.0,
             'counter_trend_forbidden': True,
-            'min_confidence': 0.20,
-            'risk_per_trade': 0.01,
-            'max_daily_trades': 5,
+            'min_confidence': 0.25,  # Más selectivo con capital real
+            'risk_per_trade': 0.005,  # 0.5% por trade = ~$1 máximo riesgo
+            'max_daily_trades': 3,    # Máximo 3 trades por día
             'check_interval_minutes': 15,
         }
         
