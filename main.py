@@ -72,7 +72,7 @@ class TelegramNotifier:
 
 ✅ Sistema V2.5 funcionando
 💰 Capital inicial: $206 USD
-🎯 Símbolos: ADA, XRP, DOGE, AVAX, SOL
+🎯 8 Símbolos: ADA, XRP, DOGE, AVAX, SOL, LINK, DOT, PEPE
 ☁️ Plataforma: Replit
 
 ⏰ {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
@@ -98,12 +98,21 @@ class TradingBotV25:
             'min_volume_ratio': 1.2,  # Volumen 20% sobre promedio
             'risk_per_trade': 0.005,
             'max_daily_trades': 3,
-            'check_interval_minutes': 15,
+            'check_interval_minutes': 10,  # Reducido por más símbolos
         }
         
         # Símbolos optimizados para capital de $206
-        # MATIC cambió a POL, agregamos AVAX como reemplazo
-        self.symbols = ['ADA-USD', 'XRP-USD', 'DOGE-USD', 'AVAX-USD', 'SOL-USD']
+        # Incluye altcoins con buena liquidez y volatilidad
+        self.symbols = [
+            'ADA-USD',    # ~$0.35
+            'XRP-USD',    # ~$0.60
+            'DOGE-USD',   # ~$0.23
+            'AVAX-USD',   # ~$25
+            'SOL-USD',    # ~$150
+            'LINK-USD',   # ~$15
+            'DOT-USD',    # ~$5
+            'PEPE-USD'    # ~$0.000008
+        ]
         self.active_positions = {}
         self.trade_history = []
         
