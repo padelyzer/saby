@@ -72,7 +72,7 @@ class TelegramNotifier:
 
 ✅ Sistema V2.5 funcionando
 💰 Capital inicial: $206 USD
-🎯 Símbolos: BTC, ETH, SOL, BNB, ADA
+🎯 Símbolos: ADA, XRP, DOGE, MATIC, SOL
 ☁️ Plataforma: Replit
 
 ⏰ {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
@@ -97,10 +97,11 @@ class TradingBotV25:
             'min_confidence': 0.25,
             'risk_per_trade': 0.005,
             'max_daily_trades': 3,
-            'check_interval_minutes': 20,
+            'check_interval_minutes': 15,  # Más frecuente para cryptos volátiles
         }
         
-        self.symbols = ['BTC-USD', 'ETH-USD', 'SOL-USD']
+        # Símbolos optimizados para capital de $206
+        self.symbols = ['ADA-USD', 'XRP-USD', 'DOGE-USD', 'MATIC-USD', 'SOL-USD']
         self.active_positions = {}
         self.trade_history = []
         
