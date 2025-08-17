@@ -89,15 +89,16 @@ class TradingBotV25:
         self.current_capital = self.initial_capital
         
         self.params = {
-            'rsi_oversold': 40,
-            'rsi_overbought': 60,
+            'rsi_oversold': 30,  # Más estricto para oversold
+            'rsi_overbought': 70,  # Más estricto para overbought
             'atr_stop_multiplier': 2.0,
             'atr_target_multiplier': 3.0,
             'counter_trend_forbidden': True,
-            'min_confidence': 0.25,
+            'min_confidence': 0.35,  # Más selectivo (era 0.25)
+            'min_volume_ratio': 1.2,  # Volumen 20% sobre promedio
             'risk_per_trade': 0.005,
             'max_daily_trades': 3,
-            'check_interval_minutes': 15,  # Balance óptimo entre oportunidades y calidad de señales
+            'check_interval_minutes': 15,
         }
         
         # Símbolos optimizados para capital de $206
@@ -130,8 +131,9 @@ class TradingBotV25:
             ticker = yf.Ticker(symbol)
             end_date = datetime.now()
             start_date = end_date - timedelta(days=days)
-            df = ticker.history(start=start_date, end=end_date, interval='1d')
-            return df if len(df) >= 20 else None
+            # Usar intervalo de 1 hora para mejor precisión en crypto
+            df = ticker.history(start=start_date, end=end_date, interval='1h')
+            return df if len(df) >= 50 else None
         except Exception as e:
             self.logger.error(f"Error obteniendo datos de {symbol}: {e}")
             return None
@@ -169,7 +171,7 @@ class TradingBotV25:
         return df
     
     def generate_signal(self, df):
-        if len(df) < 20:
+        if len(df) < 50:
             return None, 0, []
         
         current = df.iloc[-1]
@@ -177,16 +179,25 @@ class TradingBotV25:
         signals = []
         signal_type = None
         
-        # Tendencia
-        if current['Uptrend']:
+        # Validar volumen
+        avg_volume = df['Volume'].rolling(20).mean().iloc[-1]
+        current_volume = current['Volume']
+        volume_ratio = current_volume / avg_volume if avg_volume > 0 else 0
+        
+        # Si volumen bajo, no operar
+        if volume_ratio < self.params['min_volume_ratio']:
+            return None, 0, ['LOW_VOLUME']
+        
+        # Tendencia con confirmación múltiple
+        if current['Uptrend'] and current['EMA_20'] > df['EMA_20'].iloc[-5]:
             trend = 'UP'
-            signals.append('UPTREND')
-        elif current['Downtrend']:
+            signals.append('STRONG_UPTREND')
+        elif current['Downtrend'] and current['EMA_20'] < df['EMA_20'].iloc[-5]:
             trend = 'DOWN'
-            signals.append('DOWNTREND')
+            signals.append('STRONG_DOWNTREND')
         else:
             trend = 'NEUTRAL'
-            signals.append('NEUTRAL')
+            return None, 0, ['NEUTRAL_TREND']
         
         # FILTRO ANTI-TENDENCIA
         if self.params['counter_trend_forbidden']:
