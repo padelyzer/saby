@@ -1,0 +1,66 @@
+# Render.com Configuration for botphIA v1.05
+# Single service deployment (backend + frontend combined)
+
+services:
+  # ===== COMBINED BACKEND + FRONTEND SERVICE =====
+  - type: web
+    name: botphia-fullstack
+    runtime: python
+    plan: free
+    buildCommand: |
+      # Install Python dependencies
+      cd trading_api
+      pip install -r requirements.txt
+      cd ..
+      # Build frontend
+      cd botphia
+      npm install
+      npm run build
+      cd ..
+    startCommand: |
+      cd trading_api
+      python start_production.py
+    envVars:
+      # Database (using SQLite for free tier)
+      - key: DATABASE_URL
+        value: sqlite:///./botphia.db
+      
+      # Security
+      - key: JWT_SECRET_KEY
+        generateValue: true
+      
+      # Environment
+      - key: ENVIRONMENT
+        value: production
+      - key: PYTHONUNBUFFERED
+        value: "1"
+      
+      # CORS
+      - key: ALLOWED_ORIGINS
+        value: "*"
+      
+      # Trading (set these in Render dashboard)
+      - key: BINANCE_API_KEY
+        sync: false
+      - key: BINANCE_SECRET_KEY
+        sync: false
+      - key: BINANCE_TESTNET
+        value: "false"
+      
+      # Limits
+      - key: MAX_POSITIONS_PER_USER
+        value: "10"
+      - key: MAX_DAILY_TRADES
+        value: "50"
+      - key: RATE_LIMIT_ENABLED
+        value: "false"
+      
+      # Node version for frontend build
+      - key: NODE_VERSION
+        value: "20"
+    
+    # Health check
+    healthCheckPath: /
+    
+    # Auto deploy from GitHub
+    autoDeploy: true

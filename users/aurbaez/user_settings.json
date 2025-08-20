@@ -1,0 +1,9 @@
+{
+  "notifications": true,
+  "theme": "dark",
+  "timezone": "America/New_York",
+  "email_alerts": false,
+  "telegram_alerts": false,
+  "display_currency": "USD",
+  "language": "es"
+}

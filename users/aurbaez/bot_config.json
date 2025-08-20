@@ -1,0 +1,19 @@
+{
+  "scan_interval": 300,
+  "stop_loss": 2.5,
+  "take_profit": 5.0,
+  "max_trades": 5,
+  "risk_per_trade": 0.03,
+  "symbols": [
+    "BTC-USD",
+    "ETH-USD",
+    "SOL-USD",
+    "ADA-USD",
+    "DOGE-USD",
+    "XRP-USD",
+    "AVAX-USD",
+    "DOT-USD"
+  ],
+  "auto_trade": true,
+  "advanced_mode": true
+}
