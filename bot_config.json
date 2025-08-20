@@ -1,0 +1,25 @@
+{
+  "initial_capital": 200.0,
+  "risk_level": "balanced",
+  "max_positions": 5,
+  "symbols": [
+    "DOGEUSDT",
+    "ADAUSDT",
+    "AVAXUSDT",
+    "SOLUSDT",
+    "XRPUSDT",
+    "LINKUSDT",
+    "DOTUSDT",
+    "BNBUSDT"
+  ],
+  "philosophers": [
+    "Socrates",
+    "Aristoteles",
+    "Platon",
+    "Nietzsche",
+    "Kant",
+    "Descartes",
+    "Confucio",
+    "SunTzu"
+  ]
+}

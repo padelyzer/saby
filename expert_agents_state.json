@@ -1,0 +1,318 @@
+{
+  "timestamp": "2025-08-18T19:50:15.457188",
+  "agents": {
+    "BNB-USD": {
+      "params": {
+        "rsi_period": 14,
+        "rsi_overbought": 75,
+        "rsi_oversold": 25,
+        "ema_fast": 10,
+        "ema_slow": 20,
+        "volume_threshold": 1.5,
+        "stop_loss_pct": 2.0,
+        "take_profit_pct": 4.0,
+        "min_confluence_score": 60
+      },
+      "characteristics": {
+        "volatility_class": "MEDIUM",
+        "correlation_with_btc": 0.7,
+        "best_trading_hours": [
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "rsi_weight": 0.3,
+        "macd_weight": 0.25,
+        "trend_weight": 0.3,
+        "volatility_weight": 0.1,
+        "volume_weight": 0.15,
+        "pattern_weight": 0.1,
+        "sector": "EXCHANGE_TOKEN",
+        "key_levels": {
+          "support": [
+            580,
+            550,
+            500
+          ],
+          "resistance": [
+            650,
+            700,
+            750
+          ]
+        }
+      },
+      "agent_type": "BNBExpert"
+    },
+    "SOL-USD": {
+      "params": {
+        "rsi_period": 12,
+        "rsi_overbought": 78,
+        "rsi_oversold": 22,
+        "ema_fast": 8,
+        "ema_slow": 18,
+        "volume_threshold": 1.5,
+        "stop_loss_pct": 3.5,
+        "take_profit_pct": 7.0,
+        "min_confluence_score": 70
+      },
+      "characteristics": {
+        "volatility_class": "HIGH",
+        "correlation_with_btc": 0.6,
+        "best_trading_hours": [
+          14,
+          15,
+          16,
+          20,
+          21
+        ],
+        "rsi_weight": 0.35,
+        "macd_weight": 0.3,
+        "trend_weight": 0.2,
+        "volatility_weight": 0.2,
+        "volume_weight": 0.1,
+        "pattern_weight": 0.05,
+        "sector": "SMART_CONTRACT",
+        "key_levels": {
+          "support": [
+            140,
+            120,
+            100
+          ],
+          "resistance": [
+            180,
+            200,
+            220
+          ]
+        }
+      },
+      "agent_type": "SOLExpert"
+    },
+    "DOT-USD": {
+      "params": {
+        "rsi_period": 16,
+        "rsi_overbought": 72,
+        "rsi_oversold": 28,
+        "ema_fast": 15,
+        "ema_slow": 35,
+        "volume_threshold": 1.5,
+        "stop_loss_pct": 2.8,
+        "take_profit_pct": 5.5,
+        "min_confluence_score": 65
+      },
+      "characteristics": {
+        "volatility_class": "MEDIUM_HIGH",
+        "correlation_with_btc": 0.75,
+        "best_trading_hours": [
+          8,
+          9,
+          10,
+          14,
+          15,
+          16
+        ],
+        "rsi_weight": 0.25,
+        "macd_weight": 0.3,
+        "trend_weight": 0.35,
+        "volatility_weight": 0.05,
+        "volume_weight": 0.2,
+        "pattern_weight": 0.05,
+        "sector": "INTEROPERABILITY",
+        "key_levels": {
+          "support": [
+            6.5,
+            6.0,
+            5.5
+          ],
+          "resistance": [
+            8.0,
+            9.0,
+            10.0
+          ]
+        }
+      },
+      "agent_type": "DOTExpert"
+    },
+    "ADA-USD": {
+      "params": {
+        "rsi_period": 18,
+        "rsi_overbought": 74,
+        "rsi_oversold": 26,
+        "ema_fast": 16,
+        "ema_slow": 40,
+        "volume_threshold": 1.5,
+        "stop_loss_pct": 2.2,
+        "take_profit_pct": 4.5,
+        "min_confluence_score": 62
+      },
+      "characteristics": {
+        "volatility_class": "MEDIUM_LOW",
+        "correlation_with_btc": 0.8,
+        "best_trading_hours": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "rsi_weight": 0.35,
+        "macd_weight": 0.2,
+        "trend_weight": 0.3,
+        "volatility_weight": 0.05,
+        "volume_weight": 0.25,
+        "pattern_weight": 0.05,
+        "sector": "SMART_CONTRACT",
+        "key_levels": {
+          "support": [
+            0.35,
+            0.3,
+            0.25
+          ],
+          "resistance": [
+            0.5,
+            0.6,
+            0.7
+          ]
+        }
+      },
+      "agent_type": "ADAExpert"
+    },
+    "AVAX-USD": {
+      "params": {
+        "rsi_period": 14,
+        "rsi_overbought": 76,
+        "rsi_oversold": 24,
+        "ema_fast": 12,
+        "ema_slow": 28,
+        "volume_threshold": 1.5,
+        "stop_loss_pct": 3.0,
+        "take_profit_pct": 6.0,
+        "min_confluence_score": 68
+      },
+      "characteristics": {
+        "volatility_class": "MEDIUM_HIGH",
+        "correlation_with_btc": 0.65,
+        "best_trading_hours": [
+          13,
+          14,
+          15,
+          16,
+          19,
+          20
+        ],
+        "rsi_weight": 0.3,
+        "macd_weight": 0.25,
+        "trend_weight": 0.25,
+        "volatility_weight": 0.15,
+        "volume_weight": 0.15,
+        "pattern_weight": 0.1,
+        "sector": "SMART_CONTRACT",
+        "key_levels": {
+          "support": [
+            25,
+            22,
+            18
+          ],
+          "resistance": [
+            35,
+            40,
+            45
+          ]
+        }
+      },
+      "agent_type": "AVAXExpert"
+    },
+    "LINK-USD": {
+      "params": {
+        "rsi_period": 15,
+        "rsi_overbought": 73,
+        "rsi_oversold": 27,
+        "ema_fast": 14,
+        "ema_slow": 32,
+        "volume_threshold": 1.5,
+        "stop_loss_pct": 2.7,
+        "take_profit_pct": 5.2,
+        "min_confluence_score": 66
+      },
+      "characteristics": {
+        "volatility_class": "MEDIUM",
+        "correlation_with_btc": 0.72,
+        "best_trading_hours": [
+          14,
+          15,
+          16,
+          17,
+          20,
+          21
+        ],
+        "rsi_weight": 0.28,
+        "macd_weight": 0.27,
+        "trend_weight": 0.3,
+        "volatility_weight": 0.1,
+        "volume_weight": 0.2,
+        "pattern_weight": 0.05,
+        "sector": "ORACLE",
+        "key_levels": {
+          "support": [
+            14,
+            12,
+            10
+          ],
+          "resistance": [
+            18,
+            20,
+            25
+          ]
+        }
+      },
+      "agent_type": "LINKExpert"
+    },
+    "DOGE-USD": {
+      "params": {
+        "rsi_period": 10,
+        "rsi_overbought": 80,
+        "rsi_oversold": 20,
+        "ema_fast": 6,
+        "ema_slow": 15,
+        "volume_threshold": 1.5,
+        "stop_loss_pct": 4.0,
+        "take_profit_pct": 8.0,
+        "min_confluence_score": 75
+      },
+      "characteristics": {
+        "volatility_class": "VERY_HIGH",
+        "correlation_with_btc": 0.5,
+        "best_trading_hours": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ],
+        "rsi_weight": 0.4,
+        "macd_weight": 0.2,
+        "trend_weight": 0.15,
+        "volatility_weight": 0.25,
+        "volume_weight": 0.05,
+        "pattern_weight": 0.05,
+        "sector": "MEME",
+        "key_levels": {
+          "support": [
+            0.08,
+            0.06,
+            0.05
+          ],
+          "resistance": [
+            0.12,
+            0.15,
+            0.2
+          ]
+        }
+      },
+      "agent_type": "DOGEExpert"
+    }
+  }
+}

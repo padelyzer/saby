@@ -1,0 +1,40 @@
+{
+  "status": "ready",
+  "initialized_at": "2025-08-18T11:34:56.688922",
+  "configuration": {
+    "system": "philosophical_consensus",
+    "min_consensus": 0.65,
+    "min_philosophers": 3,
+    "timelock_minutes": 15,
+    "max_positions": 5,
+    "position_size": 0.02,
+    "symbols": [
+      "BTC-USD",
+      "ETH-USD",
+      "SOL-USD",
+      "DOGE-USD",
+      "ADA-USD",
+      "AVAX-USD",
+      "LINK-USD",
+      "DOT-USD"
+    ],
+    "philosophers": [
+      "Socrates",
+      "Aristoteles",
+      "Platon",
+      "Nietzsche",
+      "Kant",
+      "Descartes",
+      "Confucio",
+      "SunTzu"
+    ]
+  },
+  "performance": {
+    "total_pnl": 0.0,
+    "daily_pnl": 0.0,
+    "win_rate": 0.0,
+    "total_trades": 0,
+    "winning_trades": 0,
+    "losing_trades": 0
+  }
+}

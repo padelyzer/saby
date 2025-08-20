@@ -1,0 +1,2103 @@
+{
+  "timestamp": "2025-08-18T17:11:02.750635",
+  "summary": {
+    "total_symbols_tested": 0,
+    "strategies_tested": [
+      "momentum",
+      "mean_reversion",
+      "trend_following",
+      "volume_breakout"
+    ],
+    "best_performers": {
+      "LARGE_CAP": {
+        "strategy": "mean_reversion",
+        "success_count": 3,
+        "all_results": {
+          "mean_reversion": 3,
+          "trend_following": 1
+        }
+      },
+      "UTILITY": {
+        "strategy": "mean_reversion",
+        "success_count": 2,
+        "all_results": {
+          "trend_following": 1,
+          "mean_reversion": 2
+        }
+      },
+      "MEME": {
+        "strategy": "trend_following",
+        "success_count": 1,
+        "all_results": {
+          "trend_following": 1
+        }
+      }
+    },
+    "recommendations": {
+      "strategy_assignments": {
+        "DOGEUSDT": {
+          "primary_strategy": "trend_following",
+          "expected_return": -5.845108453504945,
+          "confidence": "Medium"
+        },
+        "ADAUSDT": {
+          "primary_strategy": "trend_following",
+          "expected_return": -6.155311887926146,
+          "confidence": "Medium"
+        },
+        "AVAXUSDT": {
+          "primary_strategy": "mean_reversion",
+          "expected_return": 11.146615807968537,
+          "confidence": "High"
+        },
+        "SOLUSDT": {
+          "primary_strategy": "mean_reversion",
+          "expected_return": 5.926202609422671,
+          "confidence": "High"
+        },
+        "XRPUSDT": {
+          "primary_strategy": "mean_reversion",
+          "expected_return": 9.877160964270661,
+          "confidence": "High"
+        },
+        "LINKUSDT": {
+          "primary_strategy": "trend_following",
+          "expected_return": 23.40271650787998,
+          "confidence": "High"
+        },
+        "DOTUSDT": {
+          "primary_strategy": "mean_reversion",
+          "expected_return": 9.336885047370123,
+          "confidence": "High"
+        },
+        "BNBUSDT": {
+          "primary_strategy": "mean_reversion",
+          "expected_return": 17.404790416627367,
+          "confidence": "High"
+        }
+      },
+      "parameter_adjustments": {},
+      "risk_warnings": [],
+      "implementation_notes": [
+        "DOTUSDT: Pocas se\u00f1ales generadas - considerar par\u00e1metros m\u00e1s sensibles"
+      ]
+    }
+  },
+  "detailed_results": {
+    "DOGEUSDT": {
+      "asset_type": "MEME",
+      "recommended_strategies": [
+        "momentum",
+        "volume_breakout"
+      ],
+      "periods": {
+        "7": {
+          "momentum": {
+            "return": 0,
+            "win_rate": 0,
+            "sharpe_ratio": 0,
+            "max_drawdown": 0,
+            "total_trades": 0,
+            "profit_factor": 0,
+            "score": 0.0,
+            "recommended": true
+          },
+          "mean_reversion": {
+            "return": 0,
+            "win_rate": 0,
+            "sharpe_ratio": 0,
+            "max_drawdown": 0,
+            "total_trades": 0,
+            "profit_factor": 0,
+            "score": 0.0,
+            "recommended": false
+          },
+          "trend_following": {
+            "return": -14.270283572270454,
+            "win_rate": 0.0,
+            "sharpe_ratio": -294.0879584223687,
+            "max_drawdown": 14.270283572270454,
+            "total_trades": 2,
+            "profit_factor": 0.0,
+            "score": -1.267,
+            "recommended": false
+          },
+          "volume_breakout": {
+            "return": 0,
+            "win_rate": 0,
+            "sharpe_ratio": 0,
+            "max_drawdown": 0,
+            "total_trades": 0,
+            "profit_factor": 0,
+            "score": 0.0,
+            "recommended": true
+          }
+        },
+        "15": {
+          "momentum": {
+            "return": 0,
+            "win_rate": 0,
+            "sharpe_ratio": 0,
+            "max_drawdown": 0,
+            "total_trades": 0,
+            "profit_factor": 0,
+            "score": 0.0,
+            "recommended": true
+          },
+          "mean_reversion": {
+            "return": -8.366422182140596,
+            "win_rate": 50.0,
+            "sharpe_ratio": -12.441239482518244,
+            "max_drawdown": 9.39892503906307,
+            "total_trades": 2,
+            "profit_factor": 0.12124943557253391,
+            "score": -0.231,
+            "recommended": false
+          },
+          "trend_following": {
+            "return": -17.790658266899754,
+            "win_rate": 20.0,
+            "sharpe_ratio": -9.017291189807068,
+            "max_drawdown": 18.96687957477004,
+            "total_trades": 5,
+            "profit_factor": 0.33301610281839394,
+            "score": -1.043,
+            "recommended": false
+          },
+          "volume_breakout": {
+            "return": 0,
+            "win_rate": 0,
+            "sharpe_ratio": 0,
+            "max_drawdown": 0,
+            "total_trades": 0,
+            "profit_factor": 0,
+            "score": 0.0,
+            "recommended": true
+          }
+        },
+        "30": {
+          "momentum": {
+            "return": 0,
+            "win_rate": 0,
+            "sharpe_ratio": 0,
+            "max_drawdown": 0,
+            "total_trades": 0,
+            "profit_factor": 0,
+            "score": 0.0,
+            "recommended": true
+          },
+          "mean_reversion": {
+            "return": -24.043694476746577,
+            "win_rate": 50.0,
+            "sharpe_ratio": -8.397716077242372,
+            "max_drawdown": 30.88392097889658,
+            "total_trades": 4,
+            "profit_factor": 0.2909486725417346,
+            "score": -0.972,
+            "recommended": false
+          },
+          "trend_following": {
+            "return": -5.845108453504945,
+            "win_rate": 28.57142857142857,
+            "sharpe_ratio": -0.8508375324875999,
+            "max_drawdown": 19.404138550691936,
+            "total_trades": 7,
+            "profit_factor": 0.8856177973979893,
+            "score": 0.121,
+            "recommended": false
+          },
+          "volume_breakout": {
+            "return": 0,
+            "win_rate": 0,
+            "sharpe_ratio": 0,
+            "max_drawdown": 0,
+            "total_trades": 0,
+            "profit_factor": 0,
+            "score": 0.0,
+            "recommended": true
+          }
+        }
+      },
+      "best_overall": {
+        "strategy": "trend_following",
+        "score": 0.121,
+        "period": 30,
+        "metrics": {
+          "total_trades": 7,
+          "winning_trades": 2,
+          "losing_trades": 5,
+          "win_rate": 28.57142857142857,
+          "avg_win": 12.95719956594494,
+          "avg_loss": -5.852276051368503,
+          "profit_factor": 0.8856177973979893,
+          "total_return": -5.845108453504945,
+          "final_equity": 9415.489154649506,
+          "sharpe_ratio": -0.8508375324875999,
+          "max_drawdown": 19.404138550691936,
+          "avg_trade_duration": 86.0,
+          "best_trade": 16.823481818250865,
+          "worst_trade": -7.80871078345177,
+          "equity_curve": [
+            10000,
+            11682.348181825086,
+            11453.064768743321,
+            10651.033012903505,
+            11619.309617154957,
+            10982.760175798312,
+            10125.148197630104,
+            9415.489154649506
+          ],
+          "trades": [
+            {
+              "entry_time": "2025-07-23 13:00:00",
+              "exit_time": "2025-08-04 00:00:00",
+              "entry_price": 0.244247815,
+              "exit_price": 0.20296143,
+              "position": -1,
+              "pnl_pct": 0.16823481818250866,
+              "duration": 275.0
+            },
+            {
+              "entry_time": "2025-08-04 00:00:00",
+              "exit_time": "2025-08-05 14:00:00",
+              "entry_price": 0.20296143,
+              "exit_price": 0.19914038,
+              "position": 1,
+              "pnl_pct": -0.019626483435793648,
+              "duration": 38.0
+            },
+            {
+              "entry_time": "2025-08-05 14:00:00",
+              "exit_time": "2025-08-07 10:00:00",
+              "entry_price": 0.19914038,
+              "exit_price": 0.21292641,
+              "position": -1,
+              "pnl_pct": -0.07002769756691236,
+              "duration": 44.0
+            },
+            {
+              "entry_time": "2025-08-07 10:00:00",
+              "exit_time": "2025-08-10 15:00:00",
+              "entry_price": 0.21292641,
+              "exit_price": 0.232453715,
+              "position": 1,
+              "pnl_pct": 0.09090917313639015,
+              "duration": 77.0
+            },
+            {
+              "entry_time": "2025-08-10 15:00:00",
+              "exit_time": "2025-08-13 07:00:00",
+              "entry_price": 0.232453715,
+              "exit_price": 0.24500243999999996,
+              "position": -1,
+              "pnl_pct": -0.054783757583740725,
+              "duration": 64.0
+            },
+            {
+              "entry_time": "2025-08-13 07:00:00",
+              "exit_time": "2025-08-14 12:00:00",
+              "entry_price": 0.24500243999999996,
+              "exit_price": 0.22606691,
+              "position": 1,
+              "pnl_pct": -0.0780871078345177,
+              "duration": 29.0
+            },
+            {
+              "entry_time": "2025-08-14 12:00:00",
+              "exit_time": "2025-08-17 15:00:00",
+              "entry_price": 0.22606691,
+              "exit_price": 0.24173080499999997,
+              "position": -1,
+              "pnl_pct": -0.07008875614746074,
+              "duration": 75.0
+            }
+          ]
+        }
+      }
+    },
+    "ADAUSDT": {
+      "asset_type": "LARGE_CAP",
+      "recommended_strategies": [
+        "momentum",
+        "mean_reversion",
+        "trend_following"
+      ],
+      "periods": {
+        "7": {
+          "momentum": {
+            "return": 0,
+            "win_rate": 0,
+            "sharpe_ratio": 0,
+            "max_drawdown": 0,
+            "total_trades": 0,
+            "profit_factor": 0,
+            "score": 0.0,
+            "recommended": true
+          },
+          "mean_reversion": {
+            "return": -8.722298518424667,
+            "win_rate": 0.0,
+            "sharpe_ratio": 0,
+            "max_drawdown": 8.722298518424667,
+            "total_trades": 1,
+            "profit_factor": 0.0,
+            "score": -0.393,
+            "recommended": true
+          },
+          "trend_following": {
+            "return": -4.90657784370178,
+            "win_rate": 33.33333333333333,
+            "sharpe_ratio": -3.6560848731104945,
+            "max_drawdown": 11.529191067373237,
+            "total_trades": 3,
+            "profit_factor": 0.6302812166888507,
+            "score": -0.088,
+            "recommended": true
+          },
+          "volume_breakout": {
+            "return": 0,
+            "win_rate": 0,
+            "sharpe_ratio": 0,
+            "max_drawdown": 0,
+            "total_trades": 0,
+            "profit_factor": 0,
+            "score": 0.0,
+            "recommended": false
+          }
+        },
+        "15": {
+          "momentum": {
+            "return": 0,
+            "win_rate": 0,
+            "sharpe_ratio": 0,
+            "max_drawdown": 0,
+            "total_trades": 0,
+            "profit_factor": 0,
+            "score": 0.0,
+            "recommended": true
+          },
+          "mean_reversion": {
+            "return": -21.598511544573746,
+            "win_rate": 66.66666666666666,
+            "sharpe_ratio": -8.158337890132975,
+            "max_drawdown": 25.38196582793841,
+            "total_trades": 3,
+            "profit_factor": 0.19807931603039533,
+            "score": -0.594,
+            "recommended": true
+          },
+          "trend_following": {
+            "return": -6.9444807068214685,
+            "win_rate": 33.33333333333333,
+            "sharpe_ratio": -2.4738168659288124,
+            "max_drawdown": 11.529191067373247,
+            "total_trades": 6,
+            "profit_factor": 0.7135193388076986,
+            "score": 0.024,
+            "recommended": true
+          },
+          "volume_breakout": {
+            "return": 0,
+            "win_rate": 0,
+            "sharpe_ratio": 0,
+            "max_drawdown": 0,
+            "total_trades": 0,
+            "profit_factor": 0,
+            "score": 0.0,
+            "recommended": false
+          }
+        },
+        "30": {
+          "momentum": {
+            "return": 0,
+            "win_rate": 0,
+            "sharpe_ratio": 0,
+            "max_drawdown": 0,
+            "total_trades": 0,
+            "profit_factor": 0,
+            "score": 0.0,
+            "recommended": true
+          },
+          "mean_reversion": {
+            "return": -12.512591435028245,
+            "win_rate": 77.77777777777779,
+            "sharpe_ratio": -1.5702654107352343,
+            "max_drawdown": 29.345483117724786,
+            "total_trades": 9,
+            "profit_factor": 0.7448344594076299,
+            "score": 0.378,
+            "recommended": true
+          },
+          "trend_following": {
+            "return": -6.155311887926146,
+            "win_rate": 45.45454545454545,
+            "sharpe_ratio": -1.240753724640885,
+            "max_drawdown": 11.529191067373231,
+            "total_trades": 11,
+            "profit_factor": 0.8389502433702596,
+            "score": 0.421,
+            "recommended": true
+          },
+          "volume_breakout": {
+            "return": 0,
+            "win_rate": 0,
+            "sharpe_ratio": 0,
+            "max_drawdown": 0,
+            "total_trades": 0,
+            "profit_factor": 0,
+            "score": 0.0,
+            "recommended": false
+          }
+        }
+      },
+      "best_overall": {
+        "strategy": "trend_following",
+        "score": 0.421,
+        "period": 30,
+        "metrics": {
+          "total_trades": 11,
+          "winning_trades": 5,
+          "losing_trades": 6,
+          "win_rate": 45.45454545454545,
+          "avg_win": 4.901153757410108,
+          "avg_loss": -4.868339725886709,
+          "profit_factor": 0.8389502433702596,
+          "total_return": -6.155311887926146,
+          "final_equity": 9384.468811207385,
+          "sharpe_ratio": -1.240753724640885,
+          "max_drawdown": 11.529191067373231,
+          "avg_trade_duration": 62.27272727272727,
+          "best_trade": 10.282432763543275,
+          "worst_trade": -6.883524342816551,
+          "equity_curve": [
+            10000,
+            10069.381134505633,
+            10485.891317752941,
+            9870.922107863269,
+            10348.07546523125,
+            10102.205225933023,
+            9879.036895772828,
+            10329.441231685449,
+            9618.411630025452,
+            10607.418338803645,
+            10053.640501630442,
+            9384.468811207385
+          ],
+          "trades": [
+            {
+              "entry_time": "2025-07-20 22:00:00",
+              "exit_time": "2025-07-22 13:00:00",
+              "entry_price": 0.85792875,
+              "exit_price": 0.8645675,
+              "position": 1,
+              "pnl_pct": 0.006938113450563378,
+              "duration": 39.0
+            },
+            {
+              "entry_time": "2025-07-22 13:00:00",
+              "exit_time": "2025-07-26 14:00:00",
+              "entry_price": 0.8645675,
+              "exit_price": 0.8281138499999999,
+              "position": -1,
+              "pnl_pct": 0.041364029991874676,
+              "duration": 97.0
+            },
+            {
+              "entry_time": "2025-07-26 14:00:00",
+              "exit_time": "2025-07-29 14:00:00",
+              "entry_price": 0.8281138499999999,
+              "exit_price": 0.7802097,
+              "position": 1,
+              "pnl_pct": -0.05864729961949064,
+              "duration": 72.0
+            },
+            {
+              "entry_time": "2025-07-29 14:00:00",
+              "exit_time": "2025-08-04 00:00:00",
+              "entry_price": 0.7802097,
+              "exit_price": 0.74187075,
+              "position": -1,
+              "pnl_pct": 0.048339289091125094,
+              "duration": 130.0
+            },
+            {
+              "entry_time": "2025-08-04 00:00:00",
+              "exit_time": "2025-08-06 05:00:00",
+              "entry_price": 0.74187075,
+              "exit_price": 0.7248374,
+              "position": 1,
+              "pnl_pct": -0.023759996737976335,
+              "duration": 53.0
+            },
+            {
+              "entry_time": "2025-08-06 05:00:00",
+              "exit_time": "2025-08-07 06:00:00",
+              "entry_price": 0.7248374,
+              "exit_price": 0.74026995,
+              "position": -1,
+              "pnl_pct": -0.022091050930870826,
+              "duration": 25.0
+            },
+            {
+              "entry_time": "2025-08-07 06:00:00",
+              "exit_time": "2025-08-12 11:00:00",
+              "entry_price": 0.74026995,
+              "exit_price": 0.7746125,
+              "position": 1,
+              "pnl_pct": 0.04559192770150954,
+              "duration": 125.0
+            },
+            {
+              "entry_time": "2025-08-12 11:00:00",
+              "exit_time": "2025-08-12 17:00:00",
+              "entry_price": 0.7746125,
+              "exit_price": 0.8273134499999999,
+              "position": -1,
+              "pnl_pct": -0.06883524342816551,
+              "duration": 6.0
+            },
+            {
+              "entry_time": "2025-08-12 17:00:00",
+              "exit_time": "2025-08-16 16:00:00",
+              "entry_price": 0.8273134499999999,
+              "exit_price": 0.9130432500000001,
+              "position": 1,
+              "pnl_pct": 0.10282432763543274,
+              "duration": 95.0
+            },
+            {
+              "entry_time": "2025-08-16 16:00:00",
+              "exit_time": "2025-08-17 07:00:00",
+              "entry_price": 0.9130432500000001,
+              "exit_price": 0.95997975,
+              "position": -1,
+              "pnl_pct": -0.05220665570880671,
+              "duration": 15.0
+            },
+            {
+              "entry_time": "2025-08-17 07:00:00",
+              "exit_time": "2025-08-18 11:00:00",
+              "entry_price": 0.95997975,
+              "exit_price": 0.89685135,
+              "position": 1,
+              "pnl_pct": -0.06656013712789251,
+              "duration": 28.0
+            }
+          ]
+        }
+      }
+    },
+    "AVAXUSDT": {
+      "asset_type": "UTILITY",
+      "recommended_strategies": [
+        "mean_reversion",
+        "volume_breakout",
+        "trend_following"
+      ],
+      "periods": {
+        "7": {
+          "momentum": {
+            "return": 0,
+            "win_rate": 0,
+            "sharpe_ratio": 0,
+            "max_drawdown": 0,
+            "total_trades": 0,
+            "profit_factor": 0,
+            "score": 0.0,
+            "recommended": false
+          },
+          "mean_reversion": {
+            "return": 15.454649564017128,
+            "win_rate": 100.0,
+            "sharpe_ratio": 194.89536915189234,
+            "max_drawdown": 0,
+            "total_trades": 2,
+            "profit_factor": 0,
+            "score": 3.214,
+            "recommended": true
+          },
+          "trend_following": {
+            "return": 0.002031262130349205,
+            "win_rate": 50.0,
+            "sharpe_ratio": 0.8037915300239595,
+            "max_drawdown": 0.01908037929504644,
+            "total_trades": 2,
+            "profit_factor": 1.106669319770092,
+            "score": 1.182,
+            "recommended": true
+          },
+          "volume_breakout": {
+            "return": 0,
+            "win_rate": 0,
+            "sharpe_ratio": 0,
+            "max_drawdown": 0,
+            "total_trades": 0,
+            "profit_factor": 0,
+            "score": 0.0,
+            "recommended": true
+          }
+        },
+        "15": {
+          "momentum": {
+            "return": 0,
+            "win_rate": 0,
+            "sharpe_ratio": 0,
+            "max_drawdown": 0,
+            "total_trades": 0,
+            "profit_factor": 0,
+            "score": 0.0,
+            "recommended": false
+          },
+          "mean_reversion": {
+            "return": 11.146615807968537,
+            "win_rate": 75.0,
+            "sharpe_ratio": 10.261448220254767,
+            "max_drawdown": 4.396638354280262,
+            "total_trades": 4,
+            "profit_factor": 3.519109627191797,
+            "score": 3.699,
+            "recommended": true
+          },
+          "trend_following": {
+            "return": -7.559342084693381,
+            "win_rate": 33.33333333333333,
+            "sharpe_ratio": -7.1935222937407515,
+            "max_drawdown": 7.578857428515949,
+            "total_trades": 6,
+            "profit_factor": 0.3093086548985617,
+            "score": -0.373,
+            "recommended": true
+          },
+          "volume_breakout": {
+            "return": 0,
+            "win_rate": 0,
+            "sharpe_ratio": 0,
+            "max_drawdown": 0,
+            "total_trades": 0,
+            "profit_factor": 0,
+            "score": 0.0,
+            "recommended": true
+          }
+        },
+        "30": {
+          "momentum": {
+            "return": 0,
+            "win_rate": 0,
+            "sharpe_ratio": 0,
+            "max_drawdown": 0,
+            "total_trades": 0,
+            "profit_factor": 0,
+            "score": 0.0,
+            "recommended": false
+          },
+          "mean_reversion": {
+            "return": 14.287260268868685,
+            "win_rate": 62.5,
+            "sharpe_ratio": 5.768625100402438,
+            "max_drawdown": 8.44109662496253,
+            "total_trades": 8,
+            "profit_factor": 2.192419665131143,
+            "score": 2.618,
+            "recommended": true
+          },
+          "trend_following": {
+            "return": 9.503624000952659,
+            "win_rate": 60.0,
+            "sharpe_ratio": 3.647210126017319,
+            "max_drawdown": 5.457586672502867,
+            "total_trades": 10,
+            "profit_factor": 2.157234525311746,
+            "score": 2.206,
+            "recommended": true
+          },
+          "volume_breakout": {
+            "return": 0,
+            "win_rate": 0,
+            "sharpe_ratio": 0,
+            "max_drawdown": 0,
+            "total_trades": 0,
+            "profit_factor": 0,
+            "score": 0.0,
+            "recommended": true
+          }
+        }
+      },
+      "best_overall": {
+        "strategy": "mean_reversion",
+        "score": 3.699,
+        "period": 15,
+        "metrics": {
+          "total_trades": 4,
+          "winning_trades": 3,
+          "losing_trades": 1,
+          "win_rate": 75.0,
+          "avg_win": 5.15741745327612,
+          "avg_loss": -4.39663835428026,
+          "profit_factor": 3.519109627191797,
+          "total_return": 11.146615807968537,
+          "final_equity": 11114.661580796854,
+          "sharpe_ratio": 10.261448220254767,
+          "max_drawdown": 4.396638354280262,
+          "avg_trade_duration": 76.25,
+          "best_trade": 6.844600857466018,
+          "worst_trade": -4.39663835428026,
+          "equity_curve": [
+            10000,
+            10488.99525087219,
+            10881.042320807033,
+            10402.642240784964,
+            11114.661580796854
+          ],
+          "trades": [
+            {
+              "entry_time": "2025-08-04 22:00:00",
+              "exit_time": "2025-08-05 14:00:00",
+              "entry_price": 23.08845,
+              "exit_price": 21.940965,
+              "position": -1,
+              "pnl_pct": 0.048899525087219065,
+              "duration": 16.0
+            },
+            {
+              "entry_time": "2025-08-05 14:00:00",
+              "exit_time": "2025-08-07 10:00:00",
+              "entry_price": 21.940965,
+              "exit_price": 22.778605,
+              "position": 1,
+              "pnl_pct": 0.03737698993640436,
+              "duration": 44.0
+            },
+            {
+              "entry_time": "2025-08-07 10:00:00",
+              "exit_time": "2025-08-14 12:00:00",
+              "entry_price": 22.778605,
+              "exit_price": 23.761875,
+              "position": -1,
+              "pnl_pct": -0.0439663835428026,
+              "duration": 170.0
+            },
+            {
+              "entry_time": "2025-08-14 12:00:00",
+              "exit_time": "2025-08-17 15:00:00",
+              "entry_price": 23.761875,
+              "exit_price": 25.407290000000003,
+              "position": 1,
+              "pnl_pct": 0.06844600857466018,
+              "duration": 75.0
+            }
+          ]
+        }
+      }
+    },
+    "SOLUSDT": {
+      "asset_type": "LARGE_CAP",
+      "recommended_strategies": [
+        "momentum",
+        "mean_reversion",
+        "trend_following"
+      ],
+      "periods": {
+        "7": {
+          "momentum": {
+            "return": 0,
+            "win_rate": 0,
+            "sharpe_ratio": 0,
+            "max_drawdown": 0,
+            "total_trades": 0,
+            "profit_factor": 0,
+            "score": 0.0,
+            "recommended": true
+          },
+          "mean_reversion": {
+            "return": 5.926202609422671,
+            "win_rate": 100.0,
+            "sharpe_ratio": 75.29700721607436,
+            "max_drawdown": 0,
+            "total_trades": 3,
+            "profit_factor": 0,
+            "score": 2.928,
+            "recommended": true
+          },
+          "trend_following": {
+            "return": -3.826261680179287,
+            "win_rate": 66.66666666666666,
+            "sharpe_ratio": -8.728884937612785,
+            "max_drawdown": 4.517783708249885,
+            "total_trades": 3,
+            "profit_factor": 0.16002502385881323,
+            "score": 0.24,
+            "recommended": true
+          },
+          "volume_breakout": {
+            "return": 0,
+            "win_rate": 0,
+            "sharpe_ratio": 0,
+            "max_drawdown": 0,
+            "total_trades": 0,
+            "profit_factor": 0,
+            "score": 0.0,
+            "recommended": false
+          }
+        },
+        "15": {
+          "momentum": {
+            "return": 0,
+            "win_rate": 0,
+            "sharpe_ratio": 0,
+            "max_drawdown": 0,
+            "total_trades": 0,
+            "profit_factor": 0,
+            "score": 0.0,
+            "recommended": true
+          },
+          "mean_reversion": {
+            "return": -8.002366477918677,
+            "win_rate": 66.66666666666666,
+            "sharpe_ratio": -5.990398549378318,
+            "max_drawdown": 11.901116037470764,
+            "total_trades": 3,
+            "profit_factor": 0.3678751834048462,
+            "score": 0.067,
+            "recommended": true
+          },
+          "trend_following": {
+            "return": -13.464157583079942,
+            "win_rate": 42.857142857142854,
+            "sharpe_ratio": -8.280304032435154,
+            "max_drawdown": 13.464157583079942,
+            "total_trades": 7,
+            "profit_factor": 0.3030456045196252,
+            "score": -0.497,
+            "recommended": true
+          },
+          "volume_breakout": {
+            "return": 0,
+            "win_rate": 0,
+            "sharpe_ratio": 0,
+            "max_drawdown": 0,
+            "total_trades": 0,
+            "profit_factor": 0,
+            "score": 0.0,
+            "recommended": false
+          }
+        },
+        "30": {
+          "momentum": {
+            "return": 0,
+            "win_rate": 0,
+            "sharpe_ratio": 0,
+            "max_drawdown": 0,
+            "total_trades": 0,
+            "profit_factor": 0,
+            "score": 0.0,
+            "recommended": true
+          },
+          "mean_reversion": {
+            "return": -20.54718974296912,
+            "win_rate": 42.857142857142854,
+            "sharpe_ratio": -8.074103037914277,
+            "max_drawdown": 23.914304712512585,
+            "total_trades": 7,
+            "profit_factor": 0.28270941662969573,
+            "score": -0.872,
+            "recommended": true
+          },
+          "trend_following": {
+            "return": -1.19181231354396,
+            "win_rate": 54.54545454545454,
+            "sharpe_ratio": -0.060722275291766145,
+            "max_drawdown": 10.32900366168009,
+            "total_trades": 11,
+            "profit_factor": 0.9907771084982638,
+            "score": 0.917,
+            "recommended": true
+          },
+          "volume_breakout": {
+            "return": 0,
+            "win_rate": 0,
+            "sharpe_ratio": 0,
+            "max_drawdown": 0,
+            "total_trades": 0,
+            "profit_factor": 0,
+            "score": 0.0,
+            "recommended": false
+          }
+        }
+      },
+      "best_overall": {
+        "strategy": "mean_reversion",
+        "score": 2.928,
+        "period": 7,
+        "metrics": {
+          "total_trades": 3,
+          "winning_trades": 3,
+          "losing_trades": 0,
+          "win_rate": 100.0,
+          "avg_win": 1.9384340712280987,
+          "avg_loss": 0,
+          "profit_factor": 0,
+          "total_return": 5.926202609422671,
+          "final_equity": 10592.620260942267,
+          "sharpe_ratio": 75.29700721607436,
+          "max_drawdown": 0,
+          "avg_trade_duration": 42.0,
+          "best_trade": 2.438208566536584,
+          "worst_trade": 1.437176968677381,
+          "equity_curve": [
+            10000,
+            10143.717696867738,
+            10340.497368286222,
+            10592.620260942267
+          ],
+          "trades": [
+            {
+              "entry_time": "2025-08-12 19:00:00",
+              "exit_time": "2025-08-15 14:00:00",
+              "entry_price": 190.54468,
+              "exit_price": 187.65377999999998,
+              "position": -1,
+              "pnl_pct": 0.014371769686773811,
+              "duration": 67.0
+            },
+            {
+              "entry_time": "2025-08-15 14:00:00",
+              "exit_time": "2025-08-17 02:00:00",
+              "entry_price": 187.65377999999998,
+              "exit_price": 191.44423,
+              "position": 1,
+              "pnl_pct": 0.019399166784703308,
+              "duration": 36.0
+            },
+            {
+              "entry_time": "2025-08-17 02:00:00",
+              "exit_time": "2025-08-18 01:00:00",
+              "entry_price": 191.44423,
+              "exit_price": 186.623265,
+              "position": -1,
+              "pnl_pct": 0.02438208566536584,
+              "duration": 23.0
+            }
+          ]
+        }
+      }
+    },
+    "XRPUSDT": {
+      "asset_type": "LARGE_CAP",
+      "recommended_strategies": [
+        "momentum",
+        "mean_reversion",
+        "trend_following"
+      ],
+      "periods": {
+        "7": {
+          "momentum": {
+            "return": 0,
+            "win_rate": 0,
+            "sharpe_ratio": 0,
+            "max_drawdown": 0,
+            "total_trades": 0,
+            "profit_factor": 0,
+            "score": 0.0,
+            "recommended": true
+          },
+          "mean_reversion": {
+            "return": 9.877160964270661,
+            "win_rate": 100.0,
+            "sharpe_ratio": 28.00760828952721,
+            "max_drawdown": 0,
+            "total_trades": 3,
+            "profit_factor": 0,
+            "score": 3.046,
+            "recommended": true
+          },
+          "trend_following": {
+            "return": -9.824473806946154,
+            "win_rate": 0.0,
+            "sharpe_ratio": -27.610112028463455,
+            "max_drawdown": 9.824473806946154,
+            "total_trades": 3,
+            "profit_factor": 0.0,
+            "score": -1.067,
+            "recommended": true
+          },
+          "volume_breakout": {
+            "return": 0,
+            "win_rate": 0,
+            "sharpe_ratio": 0,
+            "max_drawdown": 0,
+            "total_trades": 0,
+            "profit_factor": 0,
+            "score": 0.0,
+            "recommended": false
+          }
+        },
+        "15": {
+          "momentum": {
+            "return": 0,
+            "win_rate": 0,
+            "sharpe_ratio": 0,
+            "max_drawdown": 0,
+            "total_trades": 0,
+            "profit_factor": 0,
+            "score": 0.0,
+            "recommended": true
+          },
+          "mean_reversion": {
+            "return": 7.625456400508228,
+            "win_rate": 87.5,
+            "sharpe_ratio": 4.577444468721616,
+            "max_drawdown": 7.563769845777675,
+            "total_trades": 8,
+            "profit_factor": 2.0395463533749343,
+            "score": 2.612,
+            "recommended": true
+          },
+          "trend_following": {
+            "return": -18.776598426791452,
+            "win_rate": 11.11111111111111,
+            "sharpe_ratio": -14.858137203367985,
+            "max_drawdown": 18.776598426791452,
+            "total_trades": 9,
+            "profit_factor": 0.15012106147655857,
+            "score": -1.258,
+            "recommended": true
+          },
+          "volume_breakout": {
+            "return": 0,
+            "win_rate": 0,
+            "sharpe_ratio": 0,
+            "max_drawdown": 0,
+            "total_trades": 0,
+            "profit_factor": 0,
+            "score": 0.0,
+            "recommended": false
+          }
+        },
+        "30": {
+          "momentum": {
+            "return": 0,
+            "win_rate": 0,
+            "sharpe_ratio": 0,
+            "max_drawdown": 0,
+            "total_trades": 0,
+            "profit_factor": 0,
+            "score": 0.0,
+            "recommended": true
+          },
+          "mean_reversion": {
+            "return": 6.267664549408947,
+            "win_rate": 76.92307692307693,
+            "sharpe_ratio": 2.25911123434657,
+            "max_drawdown": 13.087338943811577,
+            "total_trades": 13,
+            "profit_factor": 1.3988602781515795,
+            "score": 1.848,
+            "recommended": true
+          },
+          "trend_following": {
+            "return": -7.516850025089425,
+            "win_rate": 33.33333333333333,
+            "sharpe_ratio": -2.078879314403842,
+            "max_drawdown": 17.082038001677716,
+            "total_trades": 15,
+            "profit_factor": 0.7220716033628103,
+            "score": -0.025,
+            "recommended": true
+          },
+          "volume_breakout": {
+            "return": 0,
+            "win_rate": 0,
+            "sharpe_ratio": 0,
+            "max_drawdown": 0,
+            "total_trades": 0,
+            "profit_factor": 0,
+            "score": 0.0,
+            "recommended": false
+          }
+        }
+      },
+      "best_overall": {
+        "strategy": "mean_reversion",
+        "score": 3.046,
+        "period": 7,
+        "metrics": {
+          "total_trades": 3,
+          "winning_trades": 3,
+          "losing_trades": 0,
+          "win_rate": 100.0,
+          "avg_win": 3.2055327646635456,
+          "avg_loss": 0,
+          "profit_factor": 0,
+          "total_return": 9.877160964270661,
+          "final_equity": 10987.716096427066,
+          "sharpe_ratio": 28.00760828952721,
+          "max_drawdown": 0,
+          "avg_trade_duration": 42.0,
+          "best_trade": 5.53290892344738,
+          "worst_trade": 1.0989613238912863,
+          "equity_curve": [
+            10000,
+            10553.290892344738,
+            10669.267477649348,
+            10987.716096427066
+          ],
+          "trades": [
+            {
+              "entry_time": "2025-08-12 19:00:00",
+              "exit_time": "2025-08-14 12:00:00",
+              "entry_price": 3.2871556,
+              "exit_price": 3.10265055,
+              "position": -1,
+              "pnl_pct": 0.0553290892344738,
+              "duration": 41.0
+            },
+            {
+              "entry_time": "2025-08-14 12:00:00",
+              "exit_time": "2025-08-16 08:00:00",
+              "entry_price": 3.10265055,
+              "exit_price": 3.1392296,
+              "position": 1,
+              "pnl_pct": 0.010989613238912864,
+              "duration": 44.0
+            },
+            {
+              "entry_time": "2025-08-16 08:00:00",
+              "exit_time": "2025-08-18 01:00:00",
+              "entry_price": 3.1392296,
+              "exit_price": 3.0430207499999997,
+              "position": -1,
+              "pnl_pct": 0.0298472804665197,
+              "duration": 41.0
+            }
+          ]
+        }
+      }
+    },
+    "LINKUSDT": {
+      "asset_type": "UTILITY",
+      "recommended_strategies": [
+        "mean_reversion",
+        "volume_breakout",
+        "trend_following"
+      ],
+      "periods": {
+        "7": {
+          "momentum": {
+            "return": 0,
+            "win_rate": 0,
+            "sharpe_ratio": 0,
+            "max_drawdown": 0,
+            "total_trades": 0,
+            "profit_factor": 0,
+            "score": 0.0,
+            "recommended": false
+          },
+          "mean_reversion": {
+            "return": 1.3844802878202973,
+            "win_rate": 100.0,
+            "sharpe_ratio": 0,
+            "max_drawdown": 0,
+            "total_trades": 1,
+            "profit_factor": 0,
+            "score": 1.542,
+            "recommended": true
+          },
+          "trend_following": {
+            "return": -4.978753140010867,
+            "win_rate": 0.0,
+            "sharpe_ratio": 0,
+            "max_drawdown": 4.978753140010867,
+            "total_trades": 1,
+            "profit_factor": 0.0,
+            "score": -0.224,
+            "recommended": true
+          },
+          "volume_breakout": {
+            "return": 0,
+            "win_rate": 0,
+            "sharpe_ratio": 0,
+            "max_drawdown": 0,
+            "total_trades": 0,
+            "profit_factor": 0,
+            "score": 0.0,
+            "recommended": true
+          }
+        },
+        "15": {
+          "momentum": {
+            "return": 0,
+            "win_rate": 0,
+            "sharpe_ratio": 0,
+            "max_drawdown": 0,
+            "total_trades": 0,
+            "profit_factor": 0,
+            "score": 0.0,
+            "recommended": false
+          },
+          "mean_reversion": {
+            "return": -28.422563835500213,
+            "win_rate": 50.0,
+            "sharpe_ratio": -14.446649533723306,
+            "max_drawdown": 29.400006824221347,
+            "total_trades": 2,
+            "profit_factor": 0.04709115532176282,
+            "score": -1.155,
+            "recommended": true
+          },
+          "trend_following": {
+            "return": 23.40271650787998,
+            "win_rate": 33.33333333333333,
+            "sharpe_ratio": 7.8183762500557945,
+            "max_drawdown": 4.978753140010859,
+            "total_trades": 3,
+            "profit_factor": 4.462840949725331,
+            "score": 3.444,
+            "recommended": true
+          },
+          "volume_breakout": {
+            "return": 0,
+            "win_rate": 0,
+            "sharpe_ratio": 0,
+            "max_drawdown": 0,
+            "total_trades": 0,
+            "profit_factor": 0,
+            "score": 0.0,
+            "recommended": true
+          }
+        },
+        "30": {
+          "momentum": {
+            "return": 0,
+            "win_rate": 0,
+            "sharpe_ratio": 0,
+            "max_drawdown": 0,
+            "total_trades": 0,
+            "profit_factor": 0,
+            "score": 0.0,
+            "recommended": false
+          },
+          "mean_reversion": {
+            "return": -27.981969828977586,
+            "win_rate": 50.0,
+            "sharpe_ratio": -4.51588888077021,
+            "max_drawdown": 37.37309164012237,
+            "total_trades": 6,
+            "profit_factor": 0.38532094529278943,
+            "score": -1.099,
+            "recommended": true
+          },
+          "trend_following": {
+            "return": 20.23611914964098,
+            "win_rate": 37.5,
+            "sharpe_ratio": 3.897210376531992,
+            "max_drawdown": 7.104452400433474,
+            "total_trades": 8,
+            "profit_factor": 2.2917773421870944,
+            "score": 2.238,
+            "recommended": true
+          },
+          "volume_breakout": {
+            "return": 0,
+            "win_rate": 0,
+            "sharpe_ratio": 0,
+            "max_drawdown": 0,
+            "total_trades": 0,
+            "profit_factor": 0,
+            "score": 0.0,
+            "recommended": true
+          }
+        }
+      },
+      "best_overall": {
+        "strategy": "trend_following",
+        "score": 3.444,
+        "period": 15,
+        "metrics": {
+          "total_trades": 3,
+          "winning_trades": 1,
+          "losing_trades": 2,
+          "win_rate": 33.33333333333333,
+          "avg_win": 33.12006663335001,
+          "avg_loss": -3.710648329892689,
+          "profit_factor": 4.462840949725331,
+          "total_return": 23.40271650787998,
+          "final_equity": 12340.271650787998,
+          "sharpe_ratio": 7.8183762500557945,
+          "max_drawdown": 4.978753140010859,
+          "avg_trade_duration": 92.33333333333333,
+          "best_trade": 33.12006663335001,
+          "worst_trade": -4.978753140010866,
+          "equity_curve": [
+            10000,
+            9755.745648022548,
+            12986.85510722776,
+            12340.271650787998
+          ],
+          "trades": [
+            {
+              "entry_time": "2025-08-05 14:00:00",
+              "exit_time": "2025-08-06 22:00:00",
+              "entry_price": 16.361815000000004,
+              "exit_price": 16.748369999999998,
+              "position": -1,
+              "pnl_pct": -0.02442543519774512,
+              "duration": 32.0
+            },
+            {
+              "entry_time": "2025-08-06 22:00:00",
+              "exit_time": "2025-08-15 12:00:00",
+              "entry_price": 16.748369999999998,
+              "exit_price": 22.30884,
+              "position": 1,
+              "pnl_pct": 0.3312006663335001,
+              "duration": 206.0
+            },
+            {
+              "entry_time": "2025-08-15 12:00:00",
+              "exit_time": "2025-08-17 03:00:00",
+              "entry_price": 22.30884,
+              "exit_price": 23.401695,
+              "position": -1,
+              "pnl_pct": -0.049787531400108664,
+              "duration": 39.0
+            }
+          ]
+        }
+      }
+    },
+    "DOTUSDT": {
+      "asset_type": "UTILITY",
+      "recommended_strategies": [
+        "mean_reversion",
+        "volume_breakout",
+        "trend_following"
+      ],
+      "periods": {
+        "7": {
+          "momentum": {
+            "return": 0,
+            "win_rate": 0,
+            "sharpe_ratio": 0,
+            "max_drawdown": 0,
+            "total_trades": 0,
+            "profit_factor": 0,
+            "score": 0.0,
+            "recommended": false
+          },
+          "mean_reversion": {
+            "return": 9.336885047370123,
+            "win_rate": 100.0,
+            "sharpe_ratio": 21.237620547324273,
+            "max_drawdown": 0,
+            "total_trades": 2,
+            "profit_factor": 0,
+            "score": 3.03,
+            "recommended": true
+          },
+          "trend_following": {
+            "return": -12.974303911401822,
+            "win_rate": 0.0,
+            "sharpe_ratio": -38.481983310728076,
+            "max_drawdown": 12.974303911401822,
+            "total_trades": 3,
+            "profit_factor": 0.0,
+            "score": -1.209,
+            "recommended": true
+          },
+          "volume_breakout": {
+            "return": 0,
+            "win_rate": 0,
+            "sharpe_ratio": 0,
+            "max_drawdown": 0,
+            "total_trades": 0,
+            "profit_factor": 0,
+            "score": 0.0,
+            "recommended": true
+          }
+        },
+        "15": {
+          "momentum": {
+            "return": 0,
+            "win_rate": 0,
+            "sharpe_ratio": 0,
+            "max_drawdown": 0,
+            "total_trades": 0,
+            "profit_factor": 0,
+            "score": 0.0,
+            "recommended": false
+          },
+          "mean_reversion": {
+            "return": -1.4819484428412761,
+            "win_rate": 66.66666666666666,
+            "sharpe_ratio": -1.3269340938535101,
+            "max_drawdown": 6.674177173670579,
+            "total_trades": 3,
+            "profit_factor": 0.8259944784281438,
+            "score": 0.937,
+            "recommended": true
+          },
+          "trend_following": {
+            "return": -14.468578575931168,
+            "win_rate": 16.666666666666664,
+            "sharpe_ratio": -7.495117395237507,
+            "max_drawdown": 19.295560780543294,
+            "total_trades": 6,
+            "profit_factor": 0.35953836100378594,
+            "score": -0.991,
+            "recommended": true
+          },
+          "volume_breakout": {
+            "return": 0,
+            "win_rate": 0,
+            "sharpe_ratio": 0,
+            "max_drawdown": 0,
+            "total_trades": 0,
+            "profit_factor": 0,
+            "score": 0.0,
+            "recommended": true
+          }
+        },
+        "30": {
+          "momentum": {
+            "return": 0,
+            "win_rate": 0,
+            "sharpe_ratio": 0,
+            "max_drawdown": 0,
+            "total_trades": 0,
+            "profit_factor": 0,
+            "score": 0.0,
+            "recommended": false
+          },
+          "mean_reversion": {
+            "return": 1.7734589296641752,
+            "win_rate": 57.14285714285714,
+            "sharpe_ratio": 1.1920213101136872,
+            "max_drawdown": 6.674177173670574,
+            "total_trades": 7,
+            "profit_factor": 1.1934729505450818,
+            "score": 1.317,
+            "recommended": true
+          },
+          "trend_following": {
+            "return": -15.501117440296547,
+            "win_rate": 27.27272727272727,
+            "sharpe_ratio": -4.461090274575652,
+            "max_drawdown": 19.295560780543305,
+            "total_trades": 11,
+            "profit_factor": 0.5307803027276062,
+            "score": -0.744,
+            "recommended": true
+          },
+          "volume_breakout": {
+            "return": 0,
+            "win_rate": 0,
+            "sharpe_ratio": 0,
+            "max_drawdown": 0,
+            "total_trades": 0,
+            "profit_factor": 0,
+            "score": 0.0,
+            "recommended": true
+          }
+        }
+      },
+      "best_overall": {
+        "strategy": "mean_reversion",
+        "score": 3.03,
+        "period": 7,
+        "metrics": {
+          "total_trades": 2,
+          "winning_trades": 2,
+          "losing_trades": 0,
+          "win_rate": 100.0,
+          "avg_win": 4.621320572411128,
+          "avg_loss": 0,
+          "profit_factor": 0,
+          "total_return": 9.336885047370123,
+          "final_equity": 10933.688504737012,
+          "sharpe_ratio": 21.237620547324273,
+          "max_drawdown": 0,
+          "avg_trade_duration": 39.0,
+          "best_trade": 8.07562420385452,
+          "worst_trade": 1.1670169409677353,
+          "equity_curve": [
+            10000,
+            10807.562420385453,
+            10933.688504737012
+          ],
+          "trades": [
+            {
+              "entry_time": "2025-08-14 02:00:00",
+              "exit_time": "2025-08-14 12:00:00",
+              "entry_price": 4.3628175,
+              "exit_price": 4.0070025,
+              "position": -1,
+              "pnl_pct": 0.0807562420385452,
+              "duration": 10.0
+            },
+            {
+              "entry_time": "2025-08-14 12:00:00",
+              "exit_time": "2025-08-17 08:00:00",
+              "entry_price": 4.0070025,
+              "exit_price": 4.0569705,
+              "position": 1,
+              "pnl_pct": 0.011670169409677354,
+              "duration": 68.0
+            }
+          ]
+        }
+      }
+    },
+    "BNBUSDT": {
+      "asset_type": "LARGE_CAP",
+      "recommended_strategies": [
+        "momentum",
+        "mean_reversion",
+        "trend_following"
+      ],
+      "periods": {
+        "7": {
+          "momentum": {
+            "return": 0,
+            "win_rate": 0,
+            "sharpe_ratio": 0,
+            "max_drawdown": 0,
+            "total_trades": 0,
+            "profit_factor": 0,
+            "score": 0.0,
+            "recommended": true
+          },
+          "mean_reversion": {
+            "return": 6.001144597781295,
+            "win_rate": 100.0,
+            "sharpe_ratio": 20.518628819599602,
+            "max_drawdown": 0,
+            "total_trades": 4,
+            "profit_factor": 0,
+            "score": 2.93,
+            "recommended": true
+          },
+          "trend_following": {
+            "return": -6.088640443773839,
+            "win_rate": 0.0,
+            "sharpe_ratio": -59.96576131367319,
+            "max_drawdown": 6.088640443773839,
+            "total_trades": 3,
+            "profit_factor": 0.0,
+            "score": -0.899,
+            "recommended": true
+          },
+          "volume_breakout": {
+            "return": 0,
+            "win_rate": 0,
+            "sharpe_ratio": 0,
+            "max_drawdown": 0,
+            "total_trades": 0,
+            "profit_factor": 0,
+            "score": 0.0,
+            "recommended": false
+          }
+        },
+        "15": {
+          "momentum": {
+            "return": 0,
+            "win_rate": 0,
+            "sharpe_ratio": 0,
+            "max_drawdown": 0,
+            "total_trades": 0,
+            "profit_factor": 0,
+            "score": 0.0,
+            "recommended": true
+          },
+          "mean_reversion": {
+            "return": -1.498320717544011,
+            "win_rate": 80.0,
+            "sharpe_ratio": -0.9630428214969967,
+            "max_drawdown": 7.466850940868136,
+            "total_trades": 5,
+            "profit_factor": 0.8471649710378867,
+            "score": 1.177,
+            "recommended": true
+          },
+          "trend_following": {
+            "return": -2.838294596777723,
+            "win_rate": 25.0,
+            "sharpe_ratio": -2.497104400015971,
+            "max_drawdown": 5.807419215693829,
+            "total_trades": 4,
+            "profit_factor": 0.7118528651279467,
+            "score": 0.104,
+            "recommended": true
+          },
+          "volume_breakout": {
+            "return": 0,
+            "win_rate": 0,
+            "sharpe_ratio": 0,
+            "max_drawdown": 0,
+            "total_trades": 0,
+            "profit_factor": 0,
+            "score": 0.0,
+            "recommended": false
+          }
+        },
+        "30": {
+          "momentum": {
+            "return": 0,
+            "win_rate": 0,
+            "sharpe_ratio": 0,
+            "max_drawdown": 0,
+            "total_trades": 0,
+            "profit_factor": 0,
+            "score": 0.0,
+            "recommended": true
+          },
+          "mean_reversion": {
+            "return": 17.404790416627367,
+            "win_rate": 78.57142857142857,
+            "sharpe_ratio": 6.092923525526861,
+            "max_drawdown": 7.834214868226137,
+            "total_trades": 14,
+            "profit_factor": 2.5453947141759934,
+            "score": 3.108,
+            "recommended": true
+          },
+          "trend_following": {
+            "return": -2.9418302082625267,
+            "win_rate": 33.33333333333333,
+            "sharpe_ratio": -1.089467268740505,
+            "max_drawdown": 6.398706247336286,
+            "total_trades": 9,
+            "profit_factor": 0.8542570903633349,
+            "score": 0.436,
+            "recommended": true
+          },
+          "volume_breakout": {
+            "return": 0,
+            "win_rate": 0,
+            "sharpe_ratio": 0,
+            "max_drawdown": 0,
+            "total_trades": 0,
+            "profit_factor": 0,
+            "score": 0.0,
+            "recommended": false
+          }
+        }
+      },
+      "best_overall": {
+        "strategy": "mean_reversion",
+        "score": 3.108,
+        "period": 30,
+        "metrics": {
+          "total_trades": 14,
+          "winning_trades": 11,
+          "losing_trades": 3,
+          "win_rate": 78.57142857142857,
+          "avg_win": 2.521444106105947,
+          "avg_loss": -3.632165575041171,
+          "profit_factor": 2.5453947141759934,
+          "total_return": 17.404790416627367,
+          "final_equity": 11740.479041662737,
+          "sharpe_ratio": 6.092923525526861,
+          "max_drawdown": 7.834214868226137,
+          "avg_trade_duration": 48.857142857142854,
+          "best_trade": 5.373701864264112,
+          "worst_trade": -7.466850940868136,
+          "equity_curve": [
+            10000,
+            10383.483367748095,
+            10941.460807056328,
+            11212.876336758676,
+            11534.993520029437,
+            11523.735066169138,
+            11815.433355079149,
+            12185.227770899583,
+            11779.210719763743,
+            11919.06485979455,
+            12136.851451978362,
+            11230.610845144547,
+            11600.98646364223,
+            11622.593176161885,
+            11740.479041662737
+          ],
+          "trades": [
+            {
+              "entry_time": "2025-07-21 10:00:00",
+              "exit_time": "2025-07-22 04:00:00",
+              "entry_price": 776.001805,
+              "exit_price": 745.622625,
+              "position": -1,
+              "pnl_pct": 0.038348336774809456,
+              "duration": 18.0
+            },
+            {
+              "entry_time": "2025-07-22 04:00:00",
+              "exit_time": "2025-07-22 23:00:00",
+              "entry_price": 745.622625,
+              "exit_price": 786.28666,
+              "position": 1,
+              "pnl_pct": 0.053737018642641125,
+              "duration": 19.0
+            },
+            {
+              "entry_time": "2025-07-22 23:00:00",
+              "exit_time": "2025-07-23 16:00:00",
+              "entry_price": 786.28666,
+              "exit_price": 766.152885,
+              "position": -1,
+              "pnl_pct": 0.024806151069636632,
+              "duration": 17.0
+            },
+            {
+              "entry_time": "2025-07-23 16:00:00",
+              "exit_time": "2025-07-26 21:00:00",
+              "entry_price": 766.152885,
+              "exit_price": 788.775415,
+              "position": 1,
+              "pnl_pct": 0.028727435637079125,
+              "duration": 77.0
+            },
+            {
+              "entry_time": "2025-07-26 21:00:00",
+              "exit_time": "2025-07-30 11:00:00",
+              "entry_price": 788.775415,
+              "exit_price": 788.9142599999999,
+              "position": -1,
+              "pnl_pct": -0.0009760260238333451,
+              "duration": 86.0
+            },
+            {
+              "entry_time": "2025-07-30 11:00:00",
+              "exit_time": "2025-07-31 08:00:00",
+              "entry_price": 788.9142599999999,
+              "exit_price": 809.51504,
+              "position": 1,
+              "pnl_pct": 0.02531282498556954,
+              "duration": 21.0
+            },
+            {
+              "entry_time": "2025-07-31 08:00:00",
+              "exit_time": "2025-07-31 23:00:00",
+              "entry_price": 809.51504,
+              "exit_price": 783.53157,
+              "position": -1,
+              "pnl_pct": 0.0312975753582046,
+              "duration": 15.0
+            },
+            {
+              "entry_time": "2025-07-31 23:00:00",
+              "exit_time": "2025-08-04 00:00:00",
+              "entry_price": 783.53157,
+              "exit_price": 758.050785,
+              "position": 1,
+              "pnl_pct": -0.03332043181872043,
+              "duration": 73.0
+            },
+            {
+              "entry_time": "2025-08-04 00:00:00",
+              "exit_time": "2025-08-05 14:00:00",
+              "entry_price": 758.050785,
+              "exit_price": 748.444035,
+              "position": -1,
+              "pnl_pct": 0.01187296359306591,
+              "duration": 38.0
+            },
+            {
+              "entry_time": "2025-08-05 14:00:00",
+              "exit_time": "2025-08-06 07:00:00",
+              "entry_price": 748.444035,
+              "exit_price": 762.7184500000001,
+              "position": 1,
+              "pnl_pct": 0.018272120736455722,
+              "duration": 17.0
+            },
+            {
+              "entry_time": "2025-08-06 07:00:00",
+              "exit_time": "2025-08-15 15:00:00",
+              "entry_price": 762.7184500000001,
+              "exit_price": 819.059325,
+              "position": -1,
+              "pnl_pct": -0.07466850940868136,
+              "duration": 224.0
+            },
+            {
+              "entry_time": "2025-08-15 15:00:00",
+              "exit_time": "2025-08-17 00:00:00",
+              "entry_price": 819.059325,
+              "exit_price": 846.7264250000001,
+              "position": 1,
+              "pnl_pct": 0.03297911606097656,
+              "duration": 33.0
+            },
+            {
+              "entry_time": "2025-08-17 00:00:00",
+              "exit_time": "2025-08-18 01:00:00",
+              "entry_price": 846.7264250000001,
+              "exit_price": 844.4720249999999,
+              "position": -1,
+              "pnl_pct": 0.0018624892449767894,
+              "duration": 25.0
+            },
+            {
+              "entry_time": "2025-08-18 01:00:00",
+              "exit_time": "2025-08-18 22:00:00",
+              "entry_price": 844.4720249999999,
+              "exit_price": 853.71293,
+              "position": 1,
+              "pnl_pct": 0.010142819568238643,
+              "duration": 21.0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "volume_breakout_analysis": {
+    "LARGE_CAP": {
+      "BNBUSDT": {
+        "return": 0,
+        "win_rate": 0,
+        "trades": 0,
+        "score": 0.0,
+        "config_used": {
+          "volume_spike": 2.0,
+          "price_breakout": 0.02,
+          "confirmation_periods": 3,
+          "take_profit": 0.04,
+          "stop_loss": 0.025
+        }
+      },
+      "SOLUSDT": {
+        "return": 0,
+        "win_rate": 0,
+        "trades": 0,
+        "score": 0.0,
+        "config_used": {
+          "volume_spike": 2.0,
+          "price_breakout": 0.02,
+          "confirmation_periods": 3,
+          "take_profit": 0.04,
+          "stop_loss": 0.025
+        }
+      },
+      "XRPUSDT": {
+        "return": 0,
+        "win_rate": 0,
+        "trades": 0,
+        "score": 0.0,
+        "config_used": {
+          "volume_spike": 2.0,
+          "price_breakout": 0.02,
+          "confirmation_periods": 3,
+          "take_profit": 0.04,
+          "stop_loss": 0.025
+        }
+      },
+      "ADAUSDT": {
+        "return": 0,
+        "win_rate": 0,
+        "trades": 0,
+        "score": 0.0,
+        "config_used": {
+          "volume_spike": 2.0,
+          "price_breakout": 0.02,
+          "confirmation_periods": 3,
+          "take_profit": 0.04,
+          "stop_loss": 0.025
+        }
+      }
+    },
+    "UTILITY": {
+      "LINKUSDT": {
+        "return": 0,
+        "win_rate": 0,
+        "trades": 0,
+        "score": 0.0,
+        "config_used": {
+          "volume_spike": 2.5,
+          "price_breakout": 0.025,
+          "confirmation_periods": 2,
+          "take_profit": 0.05,
+          "stop_loss": 0.03
+        }
+      },
+      "DOTUSDT": {
+        "return": 0,
+        "win_rate": 0,
+        "trades": 0,
+        "score": 0.0,
+        "config_used": {
+          "volume_spike": 2.5,
+          "price_breakout": 0.025,
+          "confirmation_periods": 2,
+          "take_profit": 0.05,
+          "stop_loss": 0.03
+        }
+      },
+      "AVAXUSDT": {
+        "return": 0,
+        "win_rate": 0,
+        "trades": 0,
+        "score": 0.0,
+        "config_used": {
+          "volume_spike": 2.5,
+          "price_breakout": 0.025,
+          "confirmation_periods": 2,
+          "take_profit": 0.05,
+          "stop_loss": 0.03
+        }
+      }
+    },
+    "MEME": {
+      "DOGEUSDT": {
+        "return": 0,
+        "win_rate": 0,
+        "trades": 0,
+        "score": 0.0,
+        "config_used": {
+          "volume_spike": 4.0,
+          "price_breakout": 0.05,
+          "confirmation_periods": 1,
+          "take_profit": 0.12,
+          "stop_loss": 0.06
+        }
+      }
+    }
+  },
+  "timeframe_analysis": {
+    "DOGEUSDT": {
+      "15m": {
+        "return": -1.010324049629362,
+        "win_rate": 0.0,
+        "trades": 1,
+        "score": -0.045
+      },
+      "1h": {
+        "return": -14.270283572270454,
+        "win_rate": 0.0,
+        "trades": 2,
+        "score": -1.267
+      },
+      "4h": {
+        "error": "'total_return'"
+      }
+    },
+    "ADAUSDT": {
+      "15m": {
+        "return": 3.022074866793846,
+        "win_rate": 100.0,
+        "trades": 3,
+        "score": 2.841
+      },
+      "1h": {
+        "return": -4.90657784370178,
+        "win_rate": 33.33333333333333,
+        "trades": 3,
+        "score": -0.088
+      },
+      "4h": {
+        "error": "'total_return'"
+      }
+    },
+    "AVAXUSDT": {
+      "15m": {
+        "return": -2.6938798277400564,
+        "win_rate": 0.0,
+        "trades": 2,
+        "score": -0.746
+      },
+      "1h": {
+        "return": 15.454649564017128,
+        "win_rate": 100.0,
+        "trades": 2,
+        "score": 3.214
+      },
+      "4h": {
+        "error": "'total_return'"
+      }
+    },
+    "SOLUSDT": {
+      "15m": {
+        "return": -5.998161748909606,
+        "win_rate": 0.0,
+        "trades": 2,
+        "score": -0.895
+      },
+      "1h": {
+        "return": 5.926202609422671,
+        "win_rate": 100.0,
+        "trades": 3,
+        "score": 2.928
+      },
+      "4h": {
+        "error": "'total_return'"
+      }
+    },
+    "XRPUSDT": {
+      "15m": {
+        "return": 0.12947397602520141,
+        "win_rate": 50.0,
+        "trades": 2,
+        "score": 1.12
+      },
+      "1h": {
+        "return": 9.877160964270661,
+        "win_rate": 100.0,
+        "trades": 3,
+        "score": 3.046
+      },
+      "4h": {
+        "error": "'total_return'"
+      }
+    },
+    "LINKUSDT": {
+      "15m": {
+        "return": 5.0777054985835814,
+        "win_rate": 33.33333333333333,
+        "trades": 3,
+        "score": 1.631
+      },
+      "1h": {
+        "return": -4.978753140010867,
+        "win_rate": 0.0,
+        "trades": 1,
+        "score": -0.224
+      },
+      "4h": {
+        "error": "'total_return'"
+      }
+    },
+    "DOTUSDT": {
+      "15m": {
+        "return": -0.20513147077168467,
+        "win_rate": 0.0,
+        "trades": 1,
+        "score": -0.009
+      },
+      "1h": {
+        "return": 9.336885047370123,
+        "win_rate": 100.0,
+        "trades": 2,
+        "score": 3.03
+      },
+      "4h": {
+        "error": "'total_return'"
+      }
+    },
+    "BNBUSDT": {
+      "15m": {
+        "return": -3.3643657006599645,
+        "win_rate": 0.0,
+        "trades": 2,
+        "score": -0.776
+      },
+      "1h": {
+        "return": 6.001144597781295,
+        "win_rate": 100.0,
+        "trades": 4,
+        "score": 2.93
+      },
+      "4h": {
+        "error": "'total_return'"
+      }
+    }
+  }
+}

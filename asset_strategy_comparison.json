@@ -1,0 +1,74 @@
+{
+  "timestamp": "2025-08-18T17:07:15.381471",
+  "comparison": {
+    "DOGEUSDT": {
+      "asset_type": "MEME",
+      "best_strategy": "momentum",
+      "best_score": 0.0,
+      "strategies_performance": {
+        "momentum": {
+          "return": 0,
+          "win_rate": 0,
+          "sharpe": 0,
+          "score": 0.0
+        },
+        "volume_breakout": {
+          "return": 0,
+          "win_rate": 0,
+          "sharpe": 0,
+          "score": 0.0
+        }
+      }
+    },
+    "ADAUSDT": {
+      "asset_type": "LARGE_CAP",
+      "best_strategy": "momentum",
+      "best_score": 0.0,
+      "strategies_performance": {
+        "momentum": {
+          "return": 0,
+          "win_rate": 0,
+          "sharpe": 0,
+          "score": 0.0
+        },
+        "mean_reversion": {
+          "return": -8.722298518424667,
+          "win_rate": 0.0,
+          "sharpe": 0,
+          "score": -0.03488919407369867
+        },
+        "trend_following": {
+          "return": -4.90657784370178,
+          "win_rate": 33.33333333333333,
+          "sharpe": -3.6560848731104945,
+          "score": -1.4153935939523383
+        }
+      }
+    },
+    "AVAXUSDT": {
+      "asset_type": "UTILITY",
+      "best_strategy": "mean_reversion",
+      "best_score": 78.219966259013,
+      "strategies_performance": {
+        "mean_reversion": {
+          "return": 15.454649564017128,
+          "win_rate": 100.0,
+          "sharpe": 194.89536915189234,
+          "score": 78.219966259013
+        },
+        "volume_breakout": {
+          "return": 0,
+          "win_rate": 0,
+          "sharpe": 0,
+          "score": 0.0
+        },
+        "trend_following": {
+          "return": 0.002031262130349205,
+          "win_rate": 50.0,
+          "sharpe": 0.8037915300239595,
+          "score": 0.4215247370581052
+        }
+      }
+    }
+  }
+}

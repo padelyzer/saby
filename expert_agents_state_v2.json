@@ -1,0 +1,166 @@
+{
+  "timestamp": "2025-08-18T19:52:23.379662",
+  "agents": {
+    "BNB-USD": {
+      "params": {
+        "rsi_period": 14,
+        "rsi_overbought": 75,
+        "rsi_oversold": 25,
+        "ema_fast": 10,
+        "ema_slow": 20,
+        "stop_loss_pct": 2.0,
+        "take_profit_pct": 4.0,
+        "min_confluence_score": 60
+      },
+      "characteristics": {
+        "volatility_class": "MEDIUM",
+        "sector": "EXCHANGE_TOKEN",
+        "rsi_weight": 0.3,
+        "macd_weight": 0.25,
+        "trend_weight": 0.3,
+        "volatility_weight": 0.1,
+        "volume_weight": 0.15,
+        "correlation_with_btc": 0.7
+      },
+      "agent_type": "BNBExpert"
+    },
+    "SOL-USD": {
+      "params": {
+        "rsi_period": 12,
+        "rsi_overbought": 78,
+        "rsi_oversold": 22,
+        "ema_fast": 8,
+        "ema_slow": 18,
+        "stop_loss_pct": 3.5,
+        "take_profit_pct": 7.0,
+        "min_confluence_score": 70
+      },
+      "characteristics": {
+        "volatility_class": "HIGH",
+        "sector": "SMART_CONTRACT",
+        "rsi_weight": 0.35,
+        "macd_weight": 0.3,
+        "trend_weight": 0.2,
+        "volatility_weight": 0.2,
+        "volume_weight": 0.1,
+        "correlation_with_btc": 0.6
+      },
+      "agent_type": "SOLExpert"
+    },
+    "DOT-USD": {
+      "params": {
+        "rsi_period": 16,
+        "rsi_overbought": 72,
+        "rsi_oversold": 28,
+        "ema_fast": 15,
+        "ema_slow": 35,
+        "stop_loss_pct": 2.8,
+        "take_profit_pct": 5.5,
+        "min_confluence_score": 65
+      },
+      "characteristics": {
+        "volatility_class": "MEDIUM_HIGH",
+        "sector": "INTEROPERABILITY",
+        "rsi_weight": 0.25,
+        "macd_weight": 0.3,
+        "trend_weight": 0.35,
+        "volatility_weight": 0.05,
+        "volume_weight": 0.2,
+        "correlation_with_btc": 0.75
+      },
+      "agent_type": "DOTExpert"
+    },
+    "ADA-USD": {
+      "params": {
+        "rsi_period": 18,
+        "rsi_overbought": 74,
+        "rsi_oversold": 26,
+        "ema_fast": 16,
+        "ema_slow": 40,
+        "stop_loss_pct": 2.2,
+        "take_profit_pct": 4.5,
+        "min_confluence_score": 62
+      },
+      "characteristics": {
+        "volatility_class": "MEDIUM_LOW",
+        "sector": "SMART_CONTRACT",
+        "rsi_weight": 0.35,
+        "macd_weight": 0.2,
+        "trend_weight": 0.3,
+        "volatility_weight": 0.05,
+        "volume_weight": 0.25,
+        "correlation_with_btc": 0.8
+      },
+      "agent_type": "ADAExpert"
+    },
+    "AVAX-USD": {
+      "params": {
+        "rsi_period": 14,
+        "rsi_overbought": 76,
+        "rsi_oversold": 24,
+        "ema_fast": 12,
+        "ema_slow": 28,
+        "stop_loss_pct": 3.0,
+        "take_profit_pct": 6.0,
+        "min_confluence_score": 68
+      },
+      "characteristics": {
+        "volatility_class": "MEDIUM_HIGH",
+        "sector": "SMART_CONTRACT",
+        "rsi_weight": 0.3,
+        "macd_weight": 0.25,
+        "trend_weight": 0.25,
+        "volatility_weight": 0.15,
+        "volume_weight": 0.15,
+        "correlation_with_btc": 0.65
+      },
+      "agent_type": "AVAXExpert"
+    },
+    "LINK-USD": {
+      "params": {
+        "rsi_period": 15,
+        "rsi_overbought": 73,
+        "rsi_oversold": 27,
+        "ema_fast": 14,
+        "ema_slow": 32,
+        "stop_loss_pct": 2.7,
+        "take_profit_pct": 5.2,
+        "min_confluence_score": 66
+      },
+      "characteristics": {
+        "volatility_class": "MEDIUM",
+        "sector": "ORACLE",
+        "rsi_weight": 0.28,
+        "macd_weight": 0.27,
+        "trend_weight": 0.3,
+        "volatility_weight": 0.1,
+        "volume_weight": 0.2,
+        "correlation_with_btc": 0.72
+      },
+      "agent_type": "LINKExpert"
+    },
+    "DOGE-USD": {
+      "params": {
+        "rsi_period": 10,
+        "rsi_overbought": 80,
+        "rsi_oversold": 20,
+        "ema_fast": 6,
+        "ema_slow": 15,
+        "stop_loss_pct": 4.0,
+        "take_profit_pct": 8.0,
+        "min_confluence_score": 75
+      },
+      "characteristics": {
+        "volatility_class": "VERY_HIGH",
+        "sector": "MEME",
+        "rsi_weight": 0.4,
+        "macd_weight": 0.2,
+        "trend_weight": 0.15,
+        "volatility_weight": 0.25,
+        "volume_weight": 0.05,
+        "correlation_with_btc": 0.5
+      },
+      "agent_type": "DOGEExpert"
+    }
+  }
+}

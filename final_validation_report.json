@@ -1,0 +1,19 @@
+{
+  "timestamp": "2025-08-18T16:36:39.397025",
+  "success_rate": 100.0,
+  "tests_passed": 8,
+  "tests_total": 8,
+  "results": {
+    "api_status": true,
+    "market_data": true,
+    "signals": true,
+    "backtest": true,
+    "market_stats": true,
+    "config": true,
+    "performance": true,
+    "latency": 2.489884694417318,
+    "latency_ok": true
+  },
+  "status": "\ud83d\udfe2 SISTEMA COMPLETAMENTE OPERATIVO",
+  "recommendation": "Sistema listo para uso en producci\u00f3n"
+}

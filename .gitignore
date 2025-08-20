@@ -3,3 +3,6 @@ venv/
   *.pyc
   .env
   .DS_Store
+signal-haven-desk/
+__pycache__/
+*.pyc

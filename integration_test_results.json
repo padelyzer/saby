@@ -1,0 +1,16 @@
+{
+  "status": "ready",
+  "balance": 10000,
+  "positions": [],
+  "recent_signals": [],
+  "performance": {
+    "total_trades": 0,
+    "winning_trades": 0,
+    "losing_trades": 0,
+    "win_rate": 0,
+    "total_pnl": 0,
+    "total_return": 0,
+    "current_balance": 10000,
+    "open_positions": 0
+  }
+}

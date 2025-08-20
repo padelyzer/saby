@@ -1,0 +1,292 @@
+{
+  "timestamp": "2025-08-18T19:56:27.493012",
+  "system_version": "2.0",
+  "system_metrics": {
+    "total_agents": 7,
+    "last_calibration": "2025-08-18 19:56:18.277417",
+    "total_signals_generated": 7
+  },
+  "agents": {
+    "BNB-USD": {
+      "agent_type": "BNBExpert",
+      "parameters": {
+        "rsi_period": 14,
+        "rsi_overbought": 75,
+        "rsi_oversold": 25,
+        "ema_fast": 10,
+        "ema_slow": 20,
+        "stop_loss_pct": 2.0,
+        "take_profit_pct": 4.0,
+        "min_confluence_score": 60,
+        "volume_threshold": 1.5
+      },
+      "characteristics": {
+        "volatility_class": "MEDIUM",
+        "sector": "EXCHANGE_TOKEN",
+        "rsi_importance": 0.3,
+        "macd_importance": 0.25,
+        "trend_importance": 0.3,
+        "volatility_importance": 0.1,
+        "volume_importance": 0.15,
+        "bb_importance": 0.1,
+        "btc_correlation": 0.7,
+        "optimal_timeframes": [
+          "1h",
+          "4h"
+        ],
+        "key_support_levels": [
+          580,
+          550,
+          500
+        ],
+        "key_resistance_levels": [
+          650,
+          700,
+          750
+        ]
+      },
+      "last_calibration": null
+    },
+    "SOL-USD": {
+      "agent_type": "SOLExpert",
+      "parameters": {
+        "rsi_period": 12,
+        "rsi_overbought": 78,
+        "rsi_oversold": 22,
+        "ema_fast": 8,
+        "ema_slow": 18,
+        "stop_loss_pct": 3.5,
+        "take_profit_pct": 7.0,
+        "min_confluence_score": 70,
+        "volume_threshold": 1.5
+      },
+      "characteristics": {
+        "volatility_class": "HIGH",
+        "sector": "SMART_CONTRACT_L1",
+        "rsi_importance": 0.35,
+        "macd_importance": 0.3,
+        "trend_importance": 0.2,
+        "volatility_importance": 0.2,
+        "volume_importance": 0.1,
+        "bb_importance": 0.05,
+        "btc_correlation": 0.6,
+        "optimal_timeframes": [
+          "15m",
+          "1h"
+        ],
+        "key_support_levels": [
+          140,
+          120,
+          100
+        ],
+        "key_resistance_levels": [
+          180,
+          200,
+          220
+        ]
+      },
+      "last_calibration": null
+    },
+    "DOT-USD": {
+      "agent_type": "DOTExpert",
+      "parameters": {
+        "rsi_period": 16,
+        "rsi_overbought": 72,
+        "rsi_oversold": 28,
+        "ema_fast": 15,
+        "ema_slow": 35,
+        "stop_loss_pct": 2.8,
+        "take_profit_pct": 5.5,
+        "min_confluence_score": 65,
+        "volume_threshold": 1.5
+      },
+      "characteristics": {
+        "volatility_class": "MEDIUM_HIGH",
+        "sector": "INTEROPERABILITY",
+        "rsi_importance": 0.25,
+        "macd_importance": 0.3,
+        "trend_importance": 0.35,
+        "volatility_importance": 0.05,
+        "volume_importance": 0.2,
+        "bb_importance": 0.05,
+        "btc_correlation": 0.75,
+        "optimal_timeframes": [
+          "1h",
+          "4h"
+        ],
+        "key_support_levels": [
+          6.5,
+          6.0,
+          5.5
+        ],
+        "key_resistance_levels": [
+          8.0,
+          9.0,
+          10.0
+        ]
+      },
+      "last_calibration": null
+    },
+    "ADA-USD": {
+      "agent_type": "ADAExpert",
+      "parameters": {
+        "rsi_period": 18,
+        "rsi_overbought": 74,
+        "rsi_oversold": 26,
+        "ema_fast": 16,
+        "ema_slow": 40,
+        "stop_loss_pct": 2.2,
+        "take_profit_pct": 4.5,
+        "min_confluence_score": 62,
+        "volume_threshold": 1.5
+      },
+      "characteristics": {
+        "volatility_class": "MEDIUM_LOW",
+        "sector": "SMART_CONTRACT_L1",
+        "rsi_importance": 0.35,
+        "macd_importance": 0.2,
+        "trend_importance": 0.3,
+        "volatility_importance": 0.05,
+        "volume_importance": 0.25,
+        "bb_importance": 0.05,
+        "btc_correlation": 0.8,
+        "optimal_timeframes": [
+          "1h",
+          "4h",
+          "1d"
+        ],
+        "key_support_levels": [
+          0.35,
+          0.3,
+          0.25
+        ],
+        "key_resistance_levels": [
+          0.5,
+          0.6,
+          0.7
+        ]
+      },
+      "last_calibration": null
+    },
+    "AVAX-USD": {
+      "agent_type": "AVAXExpert",
+      "parameters": {
+        "rsi_period": 14,
+        "rsi_overbought": 76,
+        "rsi_oversold": 24,
+        "ema_fast": 12,
+        "ema_slow": 28,
+        "stop_loss_pct": 3.0,
+        "take_profit_pct": 6.0,
+        "min_confluence_score": 68,
+        "volume_threshold": 1.5
+      },
+      "characteristics": {
+        "volatility_class": "MEDIUM_HIGH",
+        "sector": "SMART_CONTRACT_L1",
+        "rsi_importance": 0.3,
+        "macd_importance": 0.25,
+        "trend_importance": 0.25,
+        "volatility_importance": 0.15,
+        "volume_importance": 0.15,
+        "bb_importance": 0.1,
+        "btc_correlation": 0.65,
+        "optimal_timeframes": [
+          "1h",
+          "4h"
+        ],
+        "key_support_levels": [
+          25,
+          22,
+          18
+        ],
+        "key_resistance_levels": [
+          35,
+          40,
+          45
+        ]
+      },
+      "last_calibration": null
+    },
+    "LINK-USD": {
+      "agent_type": "LINKExpert",
+      "parameters": {
+        "rsi_period": 15,
+        "rsi_overbought": 73,
+        "rsi_oversold": 27,
+        "ema_fast": 14,
+        "ema_slow": 32,
+        "stop_loss_pct": 2.7,
+        "take_profit_pct": 5.2,
+        "min_confluence_score": 66,
+        "volume_threshold": 1.5
+      },
+      "characteristics": {
+        "volatility_class": "MEDIUM",
+        "sector": "ORACLE_INFRASTRUCTURE",
+        "rsi_importance": 0.28,
+        "macd_importance": 0.27,
+        "trend_importance": 0.3,
+        "volatility_importance": 0.1,
+        "volume_importance": 0.2,
+        "bb_importance": 0.05,
+        "btc_correlation": 0.72,
+        "optimal_timeframes": [
+          "1h",
+          "4h"
+        ],
+        "key_support_levels": [
+          14,
+          12,
+          10
+        ],
+        "key_resistance_levels": [
+          18,
+          20,
+          25
+        ]
+      },
+      "last_calibration": null
+    },
+    "DOGE-USD": {
+      "agent_type": "DOGEExpert",
+      "parameters": {
+        "rsi_period": 10,
+        "rsi_overbought": 80,
+        "rsi_oversold": 20,
+        "ema_fast": 6,
+        "ema_slow": 15,
+        "stop_loss_pct": 4.0,
+        "take_profit_pct": 8.0,
+        "min_confluence_score": 75,
+        "volume_threshold": 1.5
+      },
+      "characteristics": {
+        "volatility_class": "VERY_HIGH",
+        "sector": "MEME_CURRENCY",
+        "rsi_importance": 0.4,
+        "macd_importance": 0.2,
+        "trend_importance": 0.15,
+        "volatility_importance": 0.25,
+        "volume_importance": 0.05,
+        "bb_importance": 0.1,
+        "btc_correlation": 0.5,
+        "optimal_timeframes": [
+          "15m",
+          "1h"
+        ],
+        "key_support_levels": [
+          0.08,
+          0.06,
+          0.05
+        ],
+        "key_resistance_levels": [
+          0.12,
+          0.15,
+          0.2
+        ]
+      },
+      "last_calibration": null
+    }
+  }
+}

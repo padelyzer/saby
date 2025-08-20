@@ -1,0 +1,6 @@
+2025-08-18 16:33:13 - trading_system - ERROR - ERROR: 'status'
+2025-08-18 16:33:13 - trading_system - ERROR - Context: {"operation": "load_state"}
+2025-08-18 16:33:14 - trading_system - ERROR - ERROR: 'capital_used'
+2025-08-18 16:33:14 - trading_system - ERROR - Context: {"operation": "open_position", "symbol": "SOLUSDT"}
+2025-08-18 16:33:17 - trading_system - ERROR - ERROR: division by zero
+2025-08-18 16:33:17 - trading_system - ERROR - Context: {"test": "division_by_zero"}

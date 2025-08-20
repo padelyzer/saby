@@ -1,0 +1,407 @@
+{
+  "timestamp": "20250818_211229",
+  "results": {
+    "BNBUSDT": {
+      "7": {
+        "total_signals": 3,
+        "winners": 2,
+        "losers": 1,
+        "win_rate": 66.66666666666666,
+        "avg_win": 1.2081346387117444,
+        "avg_loss": -1.9693889752481244,
+        "total_pnl": 0.44688030217536456,
+        "strategy": "mean_reversion"
+      },
+      "15": {
+        "total_signals": 4,
+        "winners": 3,
+        "losers": 1,
+        "win_rate": 75.0,
+        "avg_win": 1.1214406093327718,
+        "avg_loss": -1.9693889752481244,
+        "total_pnl": 1.3949328527501907,
+        "strategy": "mean_reversion"
+      },
+      "30": {
+        "total_signals": 7,
+        "winners": 5,
+        "losers": 2,
+        "win_rate": 71.42857142857143,
+        "avg_win": 1.651740762706983,
+        "avg_loss": -3.632753106750819,
+        "total_pnl": 0.9931976000332762,
+        "strategy": "mean_reversion"
+      },
+      "90": {
+        "total_signals": 10,
+        "winners": 7,
+        "losers": 3,
+        "win_rate": 70.0,
+        "avg_win": 2.384697944378971,
+        "avg_loss": -2.1561148982787035,
+        "total_pnl": 10.224540915816688,
+        "strategy": "mean_reversion"
+      }
+    },
+    "SOLUSDT": {
+      "7": {
+        "total_signals": 3,
+        "winners": 1,
+        "losers": 2,
+        "win_rate": 33.33333333333333,
+        "avg_win": 4.08642555190231,
+        "avg_loss": -2.636906221797397,
+        "total_pnl": -1.1873868916924843,
+        "strategy": "mean_reversion"
+      },
+      "15": {
+        "total_signals": 6,
+        "winners": 4,
+        "losers": 2,
+        "win_rate": 66.66666666666666,
+        "avg_win": 5.807459197975306,
+        "avg_loss": -2.63444276310139,
+        "total_pnl": 17.960951265698444,
+        "strategy": "mean_reversion"
+      },
+      "30": {
+        "total_signals": 8,
+        "winners": 5,
+        "losers": 3,
+        "win_rate": 62.5,
+        "avg_win": 5.570404906867445,
+        "avg_loss": -2.4138411660440497,
+        "total_pnl": 20.610501036205076,
+        "strategy": "mean_reversion"
+      },
+      "90": {
+        "total_signals": 9,
+        "winners": 4,
+        "losers": 5,
+        "win_rate": 44.44444444444444,
+        "avg_win": 3.120786435289833,
+        "avg_loss": -3.2711320598607054,
+        "total_pnl": -3.8725145581441924,
+        "strategy": "mean_reversion"
+      }
+    },
+    "XRPUSDT": {
+      "7": {
+        "total_signals": 1,
+        "winners": 1,
+        "losers": 0,
+        "win_rate": 100.0,
+        "avg_win": 1.2039731112671828,
+        "avg_loss": 0.0,
+        "total_pnl": 1.2039731112671828,
+        "strategy": "mean_reversion"
+      },
+      "15": {
+        "total_signals": 4,
+        "winners": 4,
+        "losers": 0,
+        "win_rate": 100.0,
+        "avg_win": 1.9949755957631057,
+        "avg_loss": 0.0,
+        "total_pnl": 7.979902383052423,
+        "strategy": "mean_reversion"
+      },
+      "30": {
+        "total_signals": 7,
+        "winners": 6,
+        "losers": 1,
+        "win_rate": 85.71428571428571,
+        "avg_win": 2.0947345884870976,
+        "avg_loss": -1.074608945068874,
+        "total_pnl": 11.493798585853712,
+        "strategy": "mean_reversion"
+      },
+      "90": {
+        "total_signals": 12,
+        "winners": 4,
+        "losers": 8,
+        "win_rate": 33.33333333333333,
+        "avg_win": 2.84490448140152,
+        "avg_loss": -4.2928454445114435,
+        "total_pnl": -22.963145630485464,
+        "strategy": "mean_reversion"
+      }
+    },
+    "ADAUSDT": {
+      "7": {
+        "total_signals": 0,
+        "winners": 0,
+        "losers": 0,
+        "win_rate": 0,
+        "avg_win": 0,
+        "avg_loss": 0,
+        "total_pnl": 0,
+        "strategy": "trend_following"
+      },
+      "15": {
+        "total_signals": 0,
+        "winners": 0,
+        "losers": 0,
+        "win_rate": 0,
+        "avg_win": 0,
+        "avg_loss": 0,
+        "total_pnl": 0,
+        "strategy": "trend_following"
+      },
+      "30": {
+        "total_signals": 0,
+        "winners": 0,
+        "losers": 0,
+        "win_rate": 0,
+        "avg_win": 0,
+        "avg_loss": 0,
+        "total_pnl": 0,
+        "strategy": "trend_following"
+      },
+      "90": {
+        "total_signals": 0,
+        "winners": 0,
+        "losers": 0,
+        "win_rate": 0,
+        "avg_win": 0,
+        "avg_loss": 0,
+        "total_pnl": 0,
+        "strategy": "trend_following"
+      }
+    },
+    "AVAXUSDT": {
+      "7": {
+        "total_signals": 0,
+        "winners": 0,
+        "losers": 0,
+        "win_rate": 0,
+        "avg_win": 0,
+        "avg_loss": 0,
+        "total_pnl": 0,
+        "strategy": "avax_optimized"
+      },
+      "15": {
+        "total_signals": 1,
+        "winners": 1,
+        "losers": 0,
+        "win_rate": 100.0,
+        "avg_win": 5.345659163987134,
+        "avg_loss": 0.0,
+        "total_pnl": 5.345659163987134,
+        "strategy": "avax_optimized"
+      },
+      "30": {
+        "total_signals": 0,
+        "winners": 0,
+        "losers": 0,
+        "win_rate": 0,
+        "avg_win": 0,
+        "avg_loss": 0,
+        "total_pnl": 0,
+        "strategy": "avax_optimized"
+      },
+      "90": {
+        "total_signals": 1,
+        "winners": 0,
+        "losers": 1,
+        "win_rate": 0.0,
+        "avg_win": 0.0,
+        "avg_loss": -3.4721572297613315,
+        "total_pnl": -3.4721572297613315,
+        "strategy": "avax_optimized"
+      }
+    },
+    "LINKUSDT": {
+      "7": {
+        "total_signals": 0,
+        "winners": 0,
+        "losers": 0,
+        "win_rate": 0,
+        "avg_win": 0,
+        "avg_loss": 0,
+        "total_pnl": 0,
+        "strategy": "trend_following"
+      },
+      "15": {
+        "total_signals": 0,
+        "winners": 0,
+        "losers": 0,
+        "win_rate": 0,
+        "avg_win": 0,
+        "avg_loss": 0,
+        "total_pnl": 0,
+        "strategy": "trend_following"
+      },
+      "30": {
+        "total_signals": 0,
+        "winners": 0,
+        "losers": 0,
+        "win_rate": 0,
+        "avg_win": 0,
+        "avg_loss": 0,
+        "total_pnl": 0,
+        "strategy": "trend_following"
+      },
+      "90": {
+        "total_signals": 0,
+        "winners": 0,
+        "losers": 0,
+        "win_rate": 0,
+        "avg_win": 0,
+        "avg_loss": 0,
+        "total_pnl": 0,
+        "strategy": "trend_following"
+      }
+    },
+    "DOTUSDT": {
+      "7": {
+        "total_signals": 1,
+        "winners": 0,
+        "losers": 1,
+        "win_rate": 0.0,
+        "avg_win": 0.0,
+        "avg_loss": -2.427787061351148,
+        "total_pnl": -2.427787061351148,
+        "strategy": "mean_reversion"
+      },
+      "15": {
+        "total_signals": 3,
+        "winners": 1,
+        "losers": 2,
+        "win_rate": 33.33333333333333,
+        "avg_win": 4.490191329619753,
+        "avg_loss": -2.8968958520580914,
+        "total_pnl": -1.3036003744964302,
+        "strategy": "mean_reversion"
+      },
+      "30": {
+        "total_signals": 4,
+        "winners": 1,
+        "losers": 3,
+        "win_rate": 25.0,
+        "avg_win": 4.490191329619753,
+        "avg_loss": -2.85584420705986,
+        "total_pnl": -4.0773412915598275,
+        "strategy": "mean_reversion"
+      },
+      "90": {
+        "total_signals": 8,
+        "winners": 4,
+        "losers": 4,
+        "win_rate": 50.0,
+        "avg_win": 2.9638021916466695,
+        "avg_loss": -2.4457865714667153,
+        "total_pnl": 2.0720624807198176,
+        "strategy": "mean_reversion"
+      }
+    },
+    "DOGEUSDT": {
+      "7": {
+        "total_signals": 0,
+        "winners": 0,
+        "losers": 0,
+        "win_rate": 0,
+        "avg_win": 0,
+        "avg_loss": 0,
+        "total_pnl": 0,
+        "strategy": "trend_following"
+      },
+      "15": {
+        "total_signals": 0,
+        "winners": 0,
+        "losers": 0,
+        "win_rate": 0,
+        "avg_win": 0,
+        "avg_loss": 0,
+        "total_pnl": 0,
+        "strategy": "trend_following"
+      },
+      "30": {
+        "total_signals": 1,
+        "winners": 0,
+        "losers": 1,
+        "win_rate": 0.0,
+        "avg_win": 0.0,
+        "avg_loss": -6.377306600425833,
+        "total_pnl": -6.377306600425833,
+        "strategy": "trend_following"
+      },
+      "90": {
+        "total_signals": 0,
+        "winners": 0,
+        "losers": 0,
+        "win_rate": 0,
+        "avg_win": 0,
+        "avg_loss": 0,
+        "total_pnl": 0,
+        "strategy": "trend_following"
+      }
+    }
+  },
+  "analysis": {
+    "BNBUSDT": {
+      "total_signals_all_periods": 24,
+      "overall_win_rate": 70.83333333333334,
+      "total_pnl_all_periods": 13.05955167077552,
+      "avg_signals_per_period": 6.0,
+      "strategy": "mean_reversion",
+      "rating": "\ud83d\udfe2 EXCELENTE"
+    },
+    "SOLUSDT": {
+      "total_signals_all_periods": 26,
+      "overall_win_rate": 53.84615384615385,
+      "total_pnl_all_periods": 33.51155085206685,
+      "avg_signals_per_period": 6.5,
+      "strategy": "mean_reversion",
+      "rating": "\ud83d\udfe0 REGULAR"
+    },
+    "XRPUSDT": {
+      "total_signals_all_periods": 24,
+      "overall_win_rate": 62.5,
+      "total_pnl_all_periods": -2.2854715503121454,
+      "avg_signals_per_period": 6.0,
+      "strategy": "mean_reversion",
+      "rating": "\ud83d\udfe1 BUENO"
+    },
+    "ADAUSDT": {
+      "total_signals_all_periods": 0,
+      "overall_win_rate": 0,
+      "total_pnl_all_periods": 0,
+      "avg_signals_per_period": 0.0,
+      "strategy": "trend_following",
+      "rating": "\u26aa SIN DATOS"
+    },
+    "AVAXUSDT": {
+      "total_signals_all_periods": 2,
+      "overall_win_rate": 50.0,
+      "total_pnl_all_periods": 1.8735019342258021,
+      "avg_signals_per_period": 0.5,
+      "strategy": "avax_optimized",
+      "rating": "\ud83d\udfe0 REGULAR"
+    },
+    "LINKUSDT": {
+      "total_signals_all_periods": 0,
+      "overall_win_rate": 0,
+      "total_pnl_all_periods": 0,
+      "avg_signals_per_period": 0.0,
+      "strategy": "trend_following",
+      "rating": "\u26aa SIN DATOS"
+    },
+    "DOTUSDT": {
+      "total_signals_all_periods": 16,
+      "overall_win_rate": 37.5,
+      "total_pnl_all_periods": -5.736666246687588,
+      "avg_signals_per_period": 4.0,
+      "strategy": "mean_reversion",
+      "rating": "\ud83d\udd34 DEFICIENTE"
+    },
+    "DOGEUSDT": {
+      "total_signals_all_periods": 1,
+      "overall_win_rate": 0.0,
+      "total_pnl_all_periods": -6.377306600425833,
+      "avg_signals_per_period": 0.25,
+      "strategy": "trend_following",
+      "rating": "\ud83d\udd34 DEFICIENTE"
+    }
+  }
+}

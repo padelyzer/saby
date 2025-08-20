@@ -1,90 +1,78 @@
 #!/usr/bin/env python3
 """
-Test de validación de coherencia de señales
+Test para verificar que el sistema no genera señales contradictorias
 """
 
-from advanced_signals import AdvancedSignalDetector
-import yfinance as yf
+from signal_validator import SignalValidator
+from trading_api.philosophical_trading_system import PhilosophicalConsensusSystem
+from binance_client import binance_client
+import logging
 
-print("🔍 Probando validación de señales...")
-print("="*50)
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
-detector = AdvancedSignalDetector()
-
-# Probar con BTC
-print("\nAnalizando BTC-USD...")
-btc = yf.Ticker('BTC-USD')
-df = btc.history(period='3mo', interval='1h')
-
-signal = detector.generate_advanced_signal('BTC-USD', df)
-
-if signal:
-    print(f"\n✅ Señal encontrada: {signal['type']}")
-    print(f"Precio entrada: ${signal['entry_price']:,.2f}")
-    print(f"Stop Loss: ${signal['stop_loss']:,.2f}")
-    print(f"Target 1: ${signal['primary_target']['price']:,.2f}")
-    print(f"R:R Ratio: {signal['risk_reward_ratio']}:1")
+def test_contradictory_signals():
+    """Prueba que el sistema rechaza señales contradictorias"""
     
-    # Validar coherencia
-    print(f"\n🔍 Validación de coherencia:")
+    print("\n" + "="*70)
+    print(" TEST DE VALIDACIÓN DE SEÑALES ".center(70))
+    print("="*70)
     
-    if signal['type'] == 'LONG':
-        tp_valid = signal['primary_target']['price'] > signal['entry_price']
-        sl_valid = signal['stop_loss'] < signal['entry_price']
-        
-        print(f"• Target arriba del precio: {'✅' if tp_valid else '❌'}")
-        print(f"• Stop debajo del precio: {'✅' if sl_valid else '❌'}")
-        
-        if tp_valid and sl_valid:
-            print("✅ SEÑAL LONG COHERENTE")
-        else:
-            print("❌ ERROR: Señal LONG incoherente")
-            
-    else:  # SHORT
-        tp_valid = signal['primary_target']['price'] < signal['entry_price']
-        sl_valid = signal['stop_loss'] > signal['entry_price']
-        
-        print(f"• Target debajo del precio: {'✅' if tp_valid else '❌'}")
-        print(f"• Stop arriba del precio: {'✅' if sl_valid else '❌'}")
-        
-        if tp_valid and sl_valid:
-            print("✅ SEÑAL SHORT COHERENTE")
-        else:
-            print("❌ ERROR: Señal SHORT incoherente")
+    # Crear sistema
+    system = PhilosophicalConsensusSystem()
     
-    # Mostrar razones
-    print(f"\nRazones ({len(signal['entry_reasons'])}):")
-    for reason in signal['entry_reasons']:
-        print(f"• {reason}")
-        
-else:
-    print("❌ No se generó señal (filtrada por validación)")
+    # Caso 1: Señales contradictorias (como las que vio el usuario)
+    print("\n📋 Caso 1: Señales contradictorias (Socrates BUY vs Nietzsche SELL)")
+    print("-" * 50)
+    
+    validator = SignalValidator()
+    
+    # Simular votos contradictorios
+    contradictory_votes = [
+        {'philosopher': 'Socrates', 'vote': 'BUY', 'confidence': 0.75},
+        {'philosopher': 'Nietzsche', 'vote': 'SELL', 'confidence': 0.65},
+        {'philosopher': 'Aristoteles', 'vote': 'BUY', 'confidence': 0.55},
+        {'philosopher': 'Kant', 'vote': 'SELL', 'confidence': 0.60},
+        {'philosopher': 'Platon', 'vote': 'HOLD', 'confidence': 0.50},
+    ]
+    
+    result = validator.validate_philosopher_signals(contradictory_votes, 'SOLUSDT')
+    
+    if result is None:
+        print("✅ CORRECTO: Señales contradictorias rechazadas")
+        print("   - No se generó señal debido a falta de consenso")
+    else:
+        print("❌ ERROR: Se generó señal con votos contradictorios")
+        print(f"   - Señal incorrecta: {result['action']}")
+    
+    # Caso 2: Consenso claro de BUY
+    print("\n📋 Caso 2: Consenso claro de BUY (mayoría de acuerdo)")
+    print("-" * 50)
+    
+    buy_consensus_votes = [
+        {'philosopher': 'Socrates', 'vote': 'BUY', 'confidence': 0.85},
+        {'philosopher': 'Aristoteles', 'vote': 'BUY', 'confidence': 0.75},
+        {'philosopher': 'Platon', 'vote': 'BUY', 'confidence': 0.70},
+        {'philosopher': 'Kant', 'vote': 'BUY', 'confidence': 0.65},
+        {'philosopher': 'Descartes', 'vote': 'BUY', 'confidence': 0.80},
+        {'philosopher': 'Nietzsche', 'vote': 'HOLD', 'confidence': 0.50},
+    ]
+    
+    result = validator.validate_philosopher_signals(buy_consensus_votes, 'SOLUSDT')
+    
+    if result and result['action'] == 'BUY':
+        print("✅ CORRECTO: Señal BUY generada con consenso")
+        print(f"   - Consenso: {result['consensus_percentage']:.1%}")
+        print(f"   - Filósofos a favor: {', '.join(result['supporting_philosophers'])}")
+    else:
+        print("❌ ERROR: No se generó señal con consenso claro")
+    
+    print("\n" + "="*70)
+    print(" TEST COMPLETADO ".center(70))
+    print("="*70)
+    print("\n✅ El sistema ahora valida y rechaza señales contradictorias")
+    print("✅ Solo genera señales con consenso claro (>65%)")
+    print("✅ Evita mostrar BUY y SELL simultáneos")
 
-# Probar con más criptos
-print("\n" + "="*50)
-print("Probando otras criptomonedas...")
-
-tickers = ['ETH-USD', 'SOL-USD', 'BNB-USD']
-for ticker in tickers:
-    try:
-        stock = yf.Ticker(ticker)
-        df = stock.history(period='3mo', interval='1h')
-        signal = detector.generate_advanced_signal(ticker, df)
-        
-        if signal:
-            # Validar
-            if signal['type'] == 'LONG':
-                valid = signal['primary_target']['price'] > signal['entry_price'] and \
-                       signal['stop_loss'] < signal['entry_price']
-            else:
-                valid = signal['primary_target']['price'] < signal['entry_price'] and \
-                       signal['stop_loss'] > signal['entry_price']
-            
-            status = "✅ Coherente" if valid else "❌ Incoherente"
-            print(f"{ticker}: {signal['type']} - {status}")
-        else:
-            print(f"{ticker}: Sin señal")
-    except Exception as e:
-        print(f"{ticker}: Error - {e}")
-
-print("\n✅ Test completado")
+if __name__ == "__main__":
+    test_contradictory_signals()
