@@ -83,3 +83,4 @@ binance_keys.json
 *.tmp
 *.bak
 *~
+.vercel

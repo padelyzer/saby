@@ -1,0 +1,37 @@
+# Netlify Configuration for botphIA Frontend
+# Este archivo configura el deploy del frontend en Netlify
+
+[build]
+  # Directorio del frontend
+  base = "botphia"
+  
+  # Comando para construir
+  command = "npm run build"
+  
+  # Directorio de salida
+  publish = "dist"
+
+[build.environment]
+  # Version de Node.js
+  NODE_VERSION = "20"
+
+# Redirecciones para SPA
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Headers de seguridad
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+# Cache para assets
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
